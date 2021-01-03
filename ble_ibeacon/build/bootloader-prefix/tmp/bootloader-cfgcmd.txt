@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/pi/ble_ibeacon/sdkconfig;-DIDF_PATH=/home/pi/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/pi/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GUnix Makefiles;/home/pi/esp-idf/components/bootloader/subproject'

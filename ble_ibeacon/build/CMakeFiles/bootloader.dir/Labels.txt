@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/pi/ble_ibeacon/build/CMakeFiles/bootloader
+/home/pi/ble_ibeacon/build/CMakeFiles/bootloader.rule
+/home/pi/ble_ibeacon/build/CMakeFiles/bootloader-complete.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/pi/ble_ibeacon/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
