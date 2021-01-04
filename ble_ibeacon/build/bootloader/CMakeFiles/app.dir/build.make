@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build/bootloader
 
 # Utility rule file for app.
 
@@ -71,6 +71,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/pi/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/esp-idf/components/bootloader/subproject /home/pi/esp-idf/components/bootloader/subproject /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

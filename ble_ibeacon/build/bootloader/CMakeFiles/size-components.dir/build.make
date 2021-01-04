@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build/bootloader
 
 # Utility rule file for size-components.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
 include CMakeFiles/size-components.dir/progress.make
 
 CMakeFiles/size-components: bootloader.elf
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/idf_size.py --archives /home/pi/ble_ibeacon/build/bootloader/bootloader.map
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/idf_size.py --archives /home/pi/IoTProject/ble_ibeacon/build/bootloader/bootloader.map
 
 size-components: CMakeFiles/size-components
 size-components: CMakeFiles/size-components.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/size-components.dir/clean:
 .PHONY : CMakeFiles/size-components.dir/clean
 
 CMakeFiles/size-components.dir/depend:
-	cd /home/pi/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/esp-idf/components/bootloader/subproject /home/pi/esp-idf/components/bootloader/subproject /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/size-components.dir/depend
 

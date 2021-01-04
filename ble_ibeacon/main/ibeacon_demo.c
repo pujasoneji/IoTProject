@@ -112,7 +112,7 @@ static void esp_gap_cb(esp_gap_ble_cb_event_t event, esp_ble_gap_cb_param_t *par
                 // ESP_LOGI(DEMO_TAG, "Measured power (RSSI at a 1m distance):%d dbm", ibeacon_data->ibeacon_vendor.measured_power);
                 //ESP_LOGI(DEMO_TAG, "RSSI of packet:%d dbm", scan_result->scan_rst.rssi);
 
-                if (scan_result->scan_rst.rssi > -70){
+                if (scan_result->scan_rst.rssi > -75){
                 	time_t seconds;
    					seconds = time(NULL);
                 	ESP_LOGI(DEMO_TAG,"%ld", seconds);

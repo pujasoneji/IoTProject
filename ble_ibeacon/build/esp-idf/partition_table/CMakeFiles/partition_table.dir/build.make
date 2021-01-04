@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for partition_table.
 
@@ -55,15 +55,15 @@ include esp-idf/partition_table/CMakeFiles/partition_table.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table: partition_table/partition-table.bin
 esp-idf/partition_table/CMakeFiles/partition_table: partition_table/partition-table.bin
-	cd /home/pi/ble_ibeacon/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /home/pi/ble_ibeacon/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
-	cd /home/pi/ble_ibeacon/build/esp-idf/partition_table && /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /home/pi/ble_ibeacon/build/partition_table/partition-table.bin
-	cd /home/pi/ble_ibeacon/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table && /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /home/pi/IoTProject/ble_ibeacon/build/partition_table/partition-table.bin
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
 
-partition_table/partition-table.bin: /home/pi/esp-idf/components/partition_table/partitions_singleapp.csv
-partition_table/partition-table.bin: /home/pi/esp-idf/components/partition_table/gen_esp32part.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /home/pi/ble_ibeacon/build/esp-idf/partition_table && /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /home/pi/esp-idf/components/partition_table/partitions_singleapp.csv /home/pi/ble_ibeacon/build/partition_table/partition-table.bin
+partition_table/partition-table.bin: /home/pi/IoTProject/esp-idf/components/partition_table/partitions_singleapp.csv
+partition_table/partition-table.bin: /home/pi/IoTProject/esp-idf/components/partition_table/gen_esp32part.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table && /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /home/pi/IoTProject/esp-idf/components/partition_table/partitions_singleapp.csv /home/pi/IoTProject/ble_ibeacon/build/partition_table/partition-table.bin
 
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table
 partition_table: partition_table/partition-table.bin
@@ -77,10 +77,10 @@ esp-idf/partition_table/CMakeFiles/partition_table.dir/build: partition_table
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/partition_table /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/partition_table /home/pi/ble_ibeacon/build/esp-idf/partition_table/CMakeFiles/partition_table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/partition_table /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table /home/pi/IoTProject/ble_ibeacon/build/esp-idf/partition_table/CMakeFiles/partition_table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/depend
 

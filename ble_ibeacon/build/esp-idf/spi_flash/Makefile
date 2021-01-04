@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles /home/pi/ble_ibeacon/build/esp-idf/spi_flash/CMakeFiles/progress.marks
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles /home/pi/IoTProject/ble_ibeacon/build/esp-idf/spi_flash/CMakeFiles/progress.marks
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/clean
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ __idf_spi_flash: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 
 # fast build rule for target.
 __idf_spi_flash/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
 .PHONY : __idf_spi_flash/fast
 
 cache_utils.obj: cache_utils.c.obj
@@ -175,7 +175,7 @@ cache_utils.obj: cache_utils.c.obj
 
 # target to build an object file
 cache_utils.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
 .PHONY : cache_utils.c.obj
 
 cache_utils.i: cache_utils.c.i
@@ -184,7 +184,7 @@ cache_utils.i: cache_utils.c.i
 
 # target to preprocess a source file
 cache_utils.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.i
 .PHONY : cache_utils.c.i
 
 cache_utils.s: cache_utils.c.s
@@ -193,7 +193,7 @@ cache_utils.s: cache_utils.c.s
 
 # target to generate assembly for a file
 cache_utils.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.s
 .PHONY : cache_utils.c.s
 
 esp32/flash_ops_esp32.obj: esp32/flash_ops_esp32.c.obj
@@ -202,7 +202,7 @@ esp32/flash_ops_esp32.obj: esp32/flash_ops_esp32.c.obj
 
 # target to build an object file
 esp32/flash_ops_esp32.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.obj
 .PHONY : esp32/flash_ops_esp32.c.obj
 
 esp32/flash_ops_esp32.i: esp32/flash_ops_esp32.c.i
@@ -211,7 +211,7 @@ esp32/flash_ops_esp32.i: esp32/flash_ops_esp32.c.i
 
 # target to preprocess a source file
 esp32/flash_ops_esp32.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.i
 .PHONY : esp32/flash_ops_esp32.c.i
 
 esp32/flash_ops_esp32.s: esp32/flash_ops_esp32.c.s
@@ -220,7 +220,7 @@ esp32/flash_ops_esp32.s: esp32/flash_ops_esp32.c.s
 
 # target to generate assembly for a file
 esp32/flash_ops_esp32.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/flash_ops_esp32.c.s
 .PHONY : esp32/flash_ops_esp32.c.s
 
 esp32/spi_flash_rom_patch.obj: esp32/spi_flash_rom_patch.c.obj
@@ -229,7 +229,7 @@ esp32/spi_flash_rom_patch.obj: esp32/spi_flash_rom_patch.c.obj
 
 # target to build an object file
 esp32/spi_flash_rom_patch.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj
 .PHONY : esp32/spi_flash_rom_patch.c.obj
 
 esp32/spi_flash_rom_patch.i: esp32/spi_flash_rom_patch.c.i
@@ -238,7 +238,7 @@ esp32/spi_flash_rom_patch.i: esp32/spi_flash_rom_patch.c.i
 
 # target to preprocess a source file
 esp32/spi_flash_rom_patch.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.i
 .PHONY : esp32/spi_flash_rom_patch.c.i
 
 esp32/spi_flash_rom_patch.s: esp32/spi_flash_rom_patch.c.s
@@ -247,7 +247,7 @@ esp32/spi_flash_rom_patch.s: esp32/spi_flash_rom_patch.c.s
 
 # target to generate assembly for a file
 esp32/spi_flash_rom_patch.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.s
 .PHONY : esp32/spi_flash_rom_patch.c.s
 
 esp_flash_api.obj: esp_flash_api.c.obj
@@ -256,7 +256,7 @@ esp_flash_api.obj: esp_flash_api.c.obj
 
 # target to build an object file
 esp_flash_api.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
 .PHONY : esp_flash_api.c.obj
 
 esp_flash_api.i: esp_flash_api.c.i
@@ -265,7 +265,7 @@ esp_flash_api.i: esp_flash_api.c.i
 
 # target to preprocess a source file
 esp_flash_api.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.i
 .PHONY : esp_flash_api.c.i
 
 esp_flash_api.s: esp_flash_api.c.s
@@ -274,7 +274,7 @@ esp_flash_api.s: esp_flash_api.c.s
 
 # target to generate assembly for a file
 esp_flash_api.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.s
 .PHONY : esp_flash_api.c.s
 
 esp_flash_spi_init.obj: esp_flash_spi_init.c.obj
@@ -283,7 +283,7 @@ esp_flash_spi_init.obj: esp_flash_spi_init.c.obj
 
 # target to build an object file
 esp_flash_spi_init.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
 .PHONY : esp_flash_spi_init.c.obj
 
 esp_flash_spi_init.i: esp_flash_spi_init.c.i
@@ -292,7 +292,7 @@ esp_flash_spi_init.i: esp_flash_spi_init.c.i
 
 # target to preprocess a source file
 esp_flash_spi_init.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.i
 .PHONY : esp_flash_spi_init.c.i
 
 esp_flash_spi_init.s: esp_flash_spi_init.c.s
@@ -301,7 +301,7 @@ esp_flash_spi_init.s: esp_flash_spi_init.c.s
 
 # target to generate assembly for a file
 esp_flash_spi_init.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.s
 .PHONY : esp_flash_spi_init.c.s
 
 flash_mmap.obj: flash_mmap.c.obj
@@ -310,7 +310,7 @@ flash_mmap.obj: flash_mmap.c.obj
 
 # target to build an object file
 flash_mmap.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
 .PHONY : flash_mmap.c.obj
 
 flash_mmap.i: flash_mmap.c.i
@@ -319,7 +319,7 @@ flash_mmap.i: flash_mmap.c.i
 
 # target to preprocess a source file
 flash_mmap.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.i
 .PHONY : flash_mmap.c.i
 
 flash_mmap.s: flash_mmap.c.s
@@ -328,7 +328,7 @@ flash_mmap.s: flash_mmap.c.s
 
 # target to generate assembly for a file
 flash_mmap.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.s
 .PHONY : flash_mmap.c.s
 
 flash_ops.obj: flash_ops.c.obj
@@ -337,7 +337,7 @@ flash_ops.obj: flash_ops.c.obj
 
 # target to build an object file
 flash_ops.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
 .PHONY : flash_ops.c.obj
 
 flash_ops.i: flash_ops.c.i
@@ -346,7 +346,7 @@ flash_ops.i: flash_ops.c.i
 
 # target to preprocess a source file
 flash_ops.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.i
 .PHONY : flash_ops.c.i
 
 flash_ops.s: flash_ops.c.s
@@ -355,7 +355,7 @@ flash_ops.s: flash_ops.c.s
 
 # target to generate assembly for a file
 flash_ops.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.s
 .PHONY : flash_ops.c.s
 
 memspi_host_driver.obj: memspi_host_driver.c.obj
@@ -364,7 +364,7 @@ memspi_host_driver.obj: memspi_host_driver.c.obj
 
 # target to build an object file
 memspi_host_driver.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj
 .PHONY : memspi_host_driver.c.obj
 
 memspi_host_driver.i: memspi_host_driver.c.i
@@ -373,7 +373,7 @@ memspi_host_driver.i: memspi_host_driver.c.i
 
 # target to preprocess a source file
 memspi_host_driver.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.i
 .PHONY : memspi_host_driver.c.i
 
 memspi_host_driver.s: memspi_host_driver.c.s
@@ -382,7 +382,7 @@ memspi_host_driver.s: memspi_host_driver.c.s
 
 # target to generate assembly for a file
 memspi_host_driver.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.s
 .PHONY : memspi_host_driver.c.s
 
 partition.obj: partition.c.obj
@@ -391,7 +391,7 @@ partition.obj: partition.c.obj
 
 # target to build an object file
 partition.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.obj
 .PHONY : partition.c.obj
 
 partition.i: partition.c.i
@@ -400,7 +400,7 @@ partition.i: partition.c.i
 
 # target to preprocess a source file
 partition.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.i
 .PHONY : partition.c.i
 
 partition.s: partition.c.s
@@ -409,7 +409,7 @@ partition.s: partition.c.s
 
 # target to generate assembly for a file
 partition.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/partition.c.s
 .PHONY : partition.c.s
 
 spi_flash_chip_drivers.obj: spi_flash_chip_drivers.c.obj
@@ -418,7 +418,7 @@ spi_flash_chip_drivers.obj: spi_flash_chip_drivers.c.obj
 
 # target to build an object file
 spi_flash_chip_drivers.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj
 .PHONY : spi_flash_chip_drivers.c.obj
 
 spi_flash_chip_drivers.i: spi_flash_chip_drivers.c.i
@@ -427,7 +427,7 @@ spi_flash_chip_drivers.i: spi_flash_chip_drivers.c.i
 
 # target to preprocess a source file
 spi_flash_chip_drivers.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.i
 .PHONY : spi_flash_chip_drivers.c.i
 
 spi_flash_chip_drivers.s: spi_flash_chip_drivers.c.s
@@ -436,7 +436,7 @@ spi_flash_chip_drivers.s: spi_flash_chip_drivers.c.s
 
 # target to generate assembly for a file
 spi_flash_chip_drivers.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.s
 .PHONY : spi_flash_chip_drivers.c.s
 
 spi_flash_chip_gd.obj: spi_flash_chip_gd.c.obj
@@ -445,7 +445,7 @@ spi_flash_chip_gd.obj: spi_flash_chip_gd.c.obj
 
 # target to build an object file
 spi_flash_chip_gd.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj
 .PHONY : spi_flash_chip_gd.c.obj
 
 spi_flash_chip_gd.i: spi_flash_chip_gd.c.i
@@ -454,7 +454,7 @@ spi_flash_chip_gd.i: spi_flash_chip_gd.c.i
 
 # target to preprocess a source file
 spi_flash_chip_gd.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.i
 .PHONY : spi_flash_chip_gd.c.i
 
 spi_flash_chip_gd.s: spi_flash_chip_gd.c.s
@@ -463,7 +463,7 @@ spi_flash_chip_gd.s: spi_flash_chip_gd.c.s
 
 # target to generate assembly for a file
 spi_flash_chip_gd.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.s
 .PHONY : spi_flash_chip_gd.c.s
 
 spi_flash_chip_generic.obj: spi_flash_chip_generic.c.obj
@@ -472,7 +472,7 @@ spi_flash_chip_generic.obj: spi_flash_chip_generic.c.obj
 
 # target to build an object file
 spi_flash_chip_generic.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj
 .PHONY : spi_flash_chip_generic.c.obj
 
 spi_flash_chip_generic.i: spi_flash_chip_generic.c.i
@@ -481,7 +481,7 @@ spi_flash_chip_generic.i: spi_flash_chip_generic.c.i
 
 # target to preprocess a source file
 spi_flash_chip_generic.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.i
 .PHONY : spi_flash_chip_generic.c.i
 
 spi_flash_chip_generic.s: spi_flash_chip_generic.c.s
@@ -490,7 +490,7 @@ spi_flash_chip_generic.s: spi_flash_chip_generic.c.s
 
 # target to generate assembly for a file
 spi_flash_chip_generic.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.s
 .PHONY : spi_flash_chip_generic.c.s
 
 spi_flash_chip_issi.obj: spi_flash_chip_issi.c.obj
@@ -499,7 +499,7 @@ spi_flash_chip_issi.obj: spi_flash_chip_issi.c.obj
 
 # target to build an object file
 spi_flash_chip_issi.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj
 .PHONY : spi_flash_chip_issi.c.obj
 
 spi_flash_chip_issi.i: spi_flash_chip_issi.c.i
@@ -508,7 +508,7 @@ spi_flash_chip_issi.i: spi_flash_chip_issi.c.i
 
 # target to preprocess a source file
 spi_flash_chip_issi.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.i
 .PHONY : spi_flash_chip_issi.c.i
 
 spi_flash_chip_issi.s: spi_flash_chip_issi.c.s
@@ -517,7 +517,7 @@ spi_flash_chip_issi.s: spi_flash_chip_issi.c.s
 
 # target to generate assembly for a file
 spi_flash_chip_issi.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.s
 .PHONY : spi_flash_chip_issi.c.s
 
 spi_flash_os_func_app.obj: spi_flash_os_func_app.c.obj
@@ -526,7 +526,7 @@ spi_flash_os_func_app.obj: spi_flash_os_func_app.c.obj
 
 # target to build an object file
 spi_flash_os_func_app.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
 .PHONY : spi_flash_os_func_app.c.obj
 
 spi_flash_os_func_app.i: spi_flash_os_func_app.c.i
@@ -535,7 +535,7 @@ spi_flash_os_func_app.i: spi_flash_os_func_app.c.i
 
 # target to preprocess a source file
 spi_flash_os_func_app.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.i
 .PHONY : spi_flash_os_func_app.c.i
 
 spi_flash_os_func_app.s: spi_flash_os_func_app.c.s
@@ -544,7 +544,7 @@ spi_flash_os_func_app.s: spi_flash_os_func_app.c.s
 
 # target to generate assembly for a file
 spi_flash_os_func_app.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.s
 .PHONY : spi_flash_os_func_app.c.s
 
 spi_flash_os_func_noos.obj: spi_flash_os_func_noos.c.obj
@@ -553,7 +553,7 @@ spi_flash_os_func_noos.obj: spi_flash_os_func_noos.c.obj
 
 # target to build an object file
 spi_flash_os_func_noos.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj
 .PHONY : spi_flash_os_func_noos.c.obj
 
 spi_flash_os_func_noos.i: spi_flash_os_func_noos.c.i
@@ -562,7 +562,7 @@ spi_flash_os_func_noos.i: spi_flash_os_func_noos.c.i
 
 # target to preprocess a source file
 spi_flash_os_func_noos.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.i
 .PHONY : spi_flash_os_func_noos.c.i
 
 spi_flash_os_func_noos.s: spi_flash_os_func_noos.c.s
@@ -571,7 +571,7 @@ spi_flash_os_func_noos.s: spi_flash_os_func_noos.c.s
 
 # target to generate assembly for a file
 spi_flash_os_func_noos.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.s
 .PHONY : spi_flash_os_func_noos.c.s
 
 # Help Target
@@ -643,6 +643,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

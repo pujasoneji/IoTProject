@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build/bootloader
 
 # Utility rule file for erase_flash.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
 include CMakeFiles/erase_flash.dir/progress.make
 
 CMakeFiles/erase_flash:
-	cd /home/pi/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/pi/esp-idf" -D ESPTOOLPY="/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="erase_flash" -P run_esptool.cmake
+	cd /home/pi/IoTProject/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/pi/IoTProject/esp-idf" -D ESPTOOLPY="/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="erase_flash" -P run_esptool.cmake
 
 erase_flash: CMakeFiles/erase_flash
 erase_flash: CMakeFiles/erase_flash.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/erase_flash.dir/clean:
 .PHONY : CMakeFiles/erase_flash.dir/clean
 
 CMakeFiles/erase_flash.dir/depend:
-	cd /home/pi/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/esp-idf/components/bootloader/subproject /home/pi/esp-idf/components/bootloader/subproject /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/erase_flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/erase_flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/erase_flash.dir/depend
 

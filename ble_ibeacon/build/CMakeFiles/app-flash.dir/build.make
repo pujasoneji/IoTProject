@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for app-flash.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
 include CMakeFiles/app-flash.dir/progress.make
 
 CMakeFiles/app-flash:
-	cd /home/pi/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/pi/esp-idf" -D ESPTOOLPY="/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="write_flash @flash_app_args" -D WORKING_DIRECTORY="/home/pi/ble_ibeacon/build" -P /home/pi/esp-idf/components/esptool_py/run_esptool.cmake
+	cd /home/pi/IoTProject/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/pi/IoTProject/esp-idf" -D ESPTOOLPY="/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="write_flash @flash_app_args" -D WORKING_DIRECTORY="/home/pi/IoTProject/ble_ibeacon/build" -P /home/pi/IoTProject/esp-idf/components/esptool_py/run_esptool.cmake
 
 app-flash: CMakeFiles/app-flash
 app-flash: CMakeFiles/app-flash.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/app-flash.dir/clean:
 .PHONY : CMakeFiles/app-flash.dir/clean
 
 CMakeFiles/app-flash.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/ble_ibeacon /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/CMakeFiles/app-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles/app-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app-flash.dir/depend
 

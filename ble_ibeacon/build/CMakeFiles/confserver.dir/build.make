@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for confserver.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/pi/ble_ibeacon/build/config.env
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/kconfig_new/confserver.py --env-file /home/pi/ble_ibeacon/build/config.env --kconfig /home/pi/esp-idf/Kconfig --sdkconfig-rename /home/pi/esp-idf/sdkconfig.rename --config /home/pi/ble_ibeacon/sdkconfig
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/pi/IoTProject/ble_ibeacon/build/config.env
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/kconfig_new/confserver.py --env-file /home/pi/IoTProject/ble_ibeacon/build/config.env --kconfig /home/pi/IoTProject/esp-idf/Kconfig --sdkconfig-rename /home/pi/IoTProject/esp-idf/sdkconfig.rename --config /home/pi/IoTProject/ble_ibeacon/sdkconfig
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/ble_ibeacon /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/CMakeFiles/confserver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles/confserver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/confserver.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/bootloader/CMakeFiles /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/bootloader/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

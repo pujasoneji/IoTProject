@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles /home/pi/ble_ibeacon/build/esp-idf/tcp_transport/CMakeFiles/progress.marks
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles /home/pi/IoTProject/ble_ibeacon/build/esp-idf/tcp_transport/CMakeFiles/progress.marks
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/clean
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ __idf_tcp_transport: esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/ru
 
 # fast build rule for target.
 __idf_tcp_transport/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build
 .PHONY : __idf_tcp_transport/fast
 
 transport.obj: transport.c.obj
@@ -175,7 +175,7 @@ transport.obj: transport.c.obj
 
 # target to build an object file
 transport.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
 .PHONY : transport.c.obj
 
 transport.i: transport.c.i
@@ -184,7 +184,7 @@ transport.i: transport.c.i
 
 # target to preprocess a source file
 transport.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.i
 .PHONY : transport.c.i
 
 transport.s: transport.c.s
@@ -193,7 +193,7 @@ transport.s: transport.c.s
 
 # target to generate assembly for a file
 transport.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.s
 .PHONY : transport.c.s
 
 transport_ssl.obj: transport_ssl.c.obj
@@ -202,7 +202,7 @@ transport_ssl.obj: transport_ssl.c.obj
 
 # target to build an object file
 transport_ssl.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
 .PHONY : transport_ssl.c.obj
 
 transport_ssl.i: transport_ssl.c.i
@@ -211,7 +211,7 @@ transport_ssl.i: transport_ssl.c.i
 
 # target to preprocess a source file
 transport_ssl.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.i
 .PHONY : transport_ssl.c.i
 
 transport_ssl.s: transport_ssl.c.s
@@ -220,7 +220,7 @@ transport_ssl.s: transport_ssl.c.s
 
 # target to generate assembly for a file
 transport_ssl.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.s
 .PHONY : transport_ssl.c.s
 
 transport_tcp.obj: transport_tcp.c.obj
@@ -229,7 +229,7 @@ transport_tcp.obj: transport_tcp.c.obj
 
 # target to build an object file
 transport_tcp.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.obj
 .PHONY : transport_tcp.c.obj
 
 transport_tcp.i: transport_tcp.c.i
@@ -238,7 +238,7 @@ transport_tcp.i: transport_tcp.c.i
 
 # target to preprocess a source file
 transport_tcp.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.i
 .PHONY : transport_tcp.c.i
 
 transport_tcp.s: transport_tcp.c.s
@@ -247,7 +247,7 @@ transport_tcp.s: transport_tcp.c.s
 
 # target to generate assembly for a file
 transport_tcp.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.s
 .PHONY : transport_tcp.c.s
 
 transport_utils.obj: transport_utils.c.obj
@@ -256,7 +256,7 @@ transport_utils.obj: transport_utils.c.obj
 
 # target to build an object file
 transport_utils.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.obj
 .PHONY : transport_utils.c.obj
 
 transport_utils.i: transport_utils.c.i
@@ -265,7 +265,7 @@ transport_utils.i: transport_utils.c.i
 
 # target to preprocess a source file
 transport_utils.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.i
 .PHONY : transport_utils.c.i
 
 transport_utils.s: transport_utils.c.s
@@ -274,7 +274,7 @@ transport_utils.s: transport_utils.c.s
 
 # target to generate assembly for a file
 transport_utils.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.s
 .PHONY : transport_utils.c.s
 
 transport_ws.obj: transport_ws.c.obj
@@ -283,7 +283,7 @@ transport_ws.obj: transport_ws.c.obj
 
 # target to build an object file
 transport_ws.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
 .PHONY : transport_ws.c.obj
 
 transport_ws.i: transport_ws.c.i
@@ -292,7 +292,7 @@ transport_ws.i: transport_ws.c.i
 
 # target to preprocess a source file
 transport_ws.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.i
 .PHONY : transport_ws.c.i
 
 transport_ws.s: transport_ws.c.s
@@ -301,7 +301,7 @@ transport_ws.s: transport_ws.c.s
 
 # target to generate assembly for a file
 transport_ws.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.s
 .PHONY : transport_ws.c.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

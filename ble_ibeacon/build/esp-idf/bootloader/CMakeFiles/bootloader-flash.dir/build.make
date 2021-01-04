@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for bootloader-flash.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
 include esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/progress.make
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash:
-	cd /home/pi/esp-idf/components/bootloader && /usr/bin/cmake -D IDF_PATH="/home/pi/esp-idf" -D ESPTOOLPY="/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="write_flash @flash_bootloader_args" -D WORKING_DIRECTORY="/home/pi/ble_ibeacon/build" -P /home/pi/esp-idf/components/esptool_py/run_esptool.cmake
+	cd /home/pi/IoTProject/esp-idf/components/bootloader && /usr/bin/cmake -D IDF_PATH="/home/pi/IoTProject/esp-idf" -D ESPTOOLPY="/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="write_flash @flash_bootloader_args" -D WORKING_DIRECTORY="/home/pi/IoTProject/ble_ibeacon/build" -P /home/pi/IoTProject/esp-idf/components/esptool_py/run_esptool.cmake
 
 bootloader-flash: esp-idf/bootloader/CMakeFiles/bootloader-flash
 bootloader-flash: esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build.make
@@ -67,10 +67,10 @@ esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build: bootloader-flash
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/bootloader-flash.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bootloader && $(CMAKE_COMMAND) -P CMakeFiles/bootloader-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/clean
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/bootloader /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/bootloader /home/pi/ble_ibeacon/build/esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/bootloader /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bootloader /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/depend
 

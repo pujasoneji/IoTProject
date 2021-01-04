@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles /home/pi/ble_ibeacon/build/esp-idf/wifi_provisioning/CMakeFiles/progress.marks
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles /home/pi/IoTProject/ble_ibeacon/build/esp-idf/wifi_provisioning/CMakeFiles/progress.marks
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/clean
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/rule:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/rule
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/rule
 .PHONY : esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ __idf_wifi_provisioning: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisi
 
 # fast build rule for target.
 __idf_wifi_provisioning/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
 .PHONY : __idf_wifi_provisioning/fast
 
 proto-c/wifi_config.pb-c.obj: proto-c/wifi_config.pb-c.c.obj
@@ -175,7 +175,7 @@ proto-c/wifi_config.pb-c.obj: proto-c/wifi_config.pb-c.c.obj
 
 # target to build an object file
 proto-c/wifi_config.pb-c.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
 .PHONY : proto-c/wifi_config.pb-c.c.obj
 
 proto-c/wifi_config.pb-c.i: proto-c/wifi_config.pb-c.c.i
@@ -184,7 +184,7 @@ proto-c/wifi_config.pb-c.i: proto-c/wifi_config.pb-c.c.i
 
 # target to preprocess a source file
 proto-c/wifi_config.pb-c.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.i
 .PHONY : proto-c/wifi_config.pb-c.c.i
 
 proto-c/wifi_config.pb-c.s: proto-c/wifi_config.pb-c.c.s
@@ -193,7 +193,7 @@ proto-c/wifi_config.pb-c.s: proto-c/wifi_config.pb-c.c.s
 
 # target to generate assembly for a file
 proto-c/wifi_config.pb-c.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.s
 .PHONY : proto-c/wifi_config.pb-c.c.s
 
 proto-c/wifi_constants.pb-c.obj: proto-c/wifi_constants.pb-c.c.obj
@@ -202,7 +202,7 @@ proto-c/wifi_constants.pb-c.obj: proto-c/wifi_constants.pb-c.c.obj
 
 # target to build an object file
 proto-c/wifi_constants.pb-c.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
 .PHONY : proto-c/wifi_constants.pb-c.c.obj
 
 proto-c/wifi_constants.pb-c.i: proto-c/wifi_constants.pb-c.c.i
@@ -211,7 +211,7 @@ proto-c/wifi_constants.pb-c.i: proto-c/wifi_constants.pb-c.c.i
 
 # target to preprocess a source file
 proto-c/wifi_constants.pb-c.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.i
 .PHONY : proto-c/wifi_constants.pb-c.c.i
 
 proto-c/wifi_constants.pb-c.s: proto-c/wifi_constants.pb-c.c.s
@@ -220,7 +220,7 @@ proto-c/wifi_constants.pb-c.s: proto-c/wifi_constants.pb-c.c.s
 
 # target to generate assembly for a file
 proto-c/wifi_constants.pb-c.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.s
 .PHONY : proto-c/wifi_constants.pb-c.c.s
 
 proto-c/wifi_scan.pb-c.obj: proto-c/wifi_scan.pb-c.c.obj
@@ -229,7 +229,7 @@ proto-c/wifi_scan.pb-c.obj: proto-c/wifi_scan.pb-c.c.obj
 
 # target to build an object file
 proto-c/wifi_scan.pb-c.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
 .PHONY : proto-c/wifi_scan.pb-c.c.obj
 
 proto-c/wifi_scan.pb-c.i: proto-c/wifi_scan.pb-c.c.i
@@ -238,7 +238,7 @@ proto-c/wifi_scan.pb-c.i: proto-c/wifi_scan.pb-c.c.i
 
 # target to preprocess a source file
 proto-c/wifi_scan.pb-c.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.i
 .PHONY : proto-c/wifi_scan.pb-c.c.i
 
 proto-c/wifi_scan.pb-c.s: proto-c/wifi_scan.pb-c.c.s
@@ -247,7 +247,7 @@ proto-c/wifi_scan.pb-c.s: proto-c/wifi_scan.pb-c.c.s
 
 # target to generate assembly for a file
 proto-c/wifi_scan.pb-c.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.s
 .PHONY : proto-c/wifi_scan.pb-c.c.s
 
 src/handlers.obj: src/handlers.c.obj
@@ -256,7 +256,7 @@ src/handlers.obj: src/handlers.c.obj
 
 # target to build an object file
 src/handlers.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
 .PHONY : src/handlers.c.obj
 
 src/handlers.i: src/handlers.c.i
@@ -265,7 +265,7 @@ src/handlers.i: src/handlers.c.i
 
 # target to preprocess a source file
 src/handlers.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.i
 .PHONY : src/handlers.c.i
 
 src/handlers.s: src/handlers.c.s
@@ -274,7 +274,7 @@ src/handlers.s: src/handlers.c.s
 
 # target to generate assembly for a file
 src/handlers.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.s
 .PHONY : src/handlers.c.s
 
 src/manager.obj: src/manager.c.obj
@@ -283,7 +283,7 @@ src/manager.obj: src/manager.c.obj
 
 # target to build an object file
 src/manager.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
 .PHONY : src/manager.c.obj
 
 src/manager.i: src/manager.c.i
@@ -292,7 +292,7 @@ src/manager.i: src/manager.c.i
 
 # target to preprocess a source file
 src/manager.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.i
 .PHONY : src/manager.c.i
 
 src/manager.s: src/manager.c.s
@@ -301,7 +301,7 @@ src/manager.s: src/manager.c.s
 
 # target to generate assembly for a file
 src/manager.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.s
 .PHONY : src/manager.c.s
 
 src/scheme_ble.obj: src/scheme_ble.c.obj
@@ -310,7 +310,7 @@ src/scheme_ble.obj: src/scheme_ble.c.obj
 
 # target to build an object file
 src/scheme_ble.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.obj
 .PHONY : src/scheme_ble.c.obj
 
 src/scheme_ble.i: src/scheme_ble.c.i
@@ -319,7 +319,7 @@ src/scheme_ble.i: src/scheme_ble.c.i
 
 # target to preprocess a source file
 src/scheme_ble.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.i
 .PHONY : src/scheme_ble.c.i
 
 src/scheme_ble.s: src/scheme_ble.c.s
@@ -328,7 +328,7 @@ src/scheme_ble.s: src/scheme_ble.c.s
 
 # target to generate assembly for a file
 src/scheme_ble.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.s
 .PHONY : src/scheme_ble.c.s
 
 src/scheme_console.obj: src/scheme_console.c.obj
@@ -337,7 +337,7 @@ src/scheme_console.obj: src/scheme_console.c.obj
 
 # target to build an object file
 src/scheme_console.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
 .PHONY : src/scheme_console.c.obj
 
 src/scheme_console.i: src/scheme_console.c.i
@@ -346,7 +346,7 @@ src/scheme_console.i: src/scheme_console.c.i
 
 # target to preprocess a source file
 src/scheme_console.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.i
 .PHONY : src/scheme_console.c.i
 
 src/scheme_console.s: src/scheme_console.c.s
@@ -355,7 +355,7 @@ src/scheme_console.s: src/scheme_console.c.s
 
 # target to generate assembly for a file
 src/scheme_console.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.s
 .PHONY : src/scheme_console.c.s
 
 src/scheme_softap.obj: src/scheme_softap.c.obj
@@ -364,7 +364,7 @@ src/scheme_softap.obj: src/scheme_softap.c.obj
 
 # target to build an object file
 src/scheme_softap.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
 .PHONY : src/scheme_softap.c.obj
 
 src/scheme_softap.i: src/scheme_softap.c.i
@@ -373,7 +373,7 @@ src/scheme_softap.i: src/scheme_softap.c.i
 
 # target to preprocess a source file
 src/scheme_softap.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.i
 .PHONY : src/scheme_softap.c.i
 
 src/scheme_softap.s: src/scheme_softap.c.s
@@ -382,7 +382,7 @@ src/scheme_softap.s: src/scheme_softap.c.s
 
 # target to generate assembly for a file
 src/scheme_softap.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.s
 .PHONY : src/scheme_softap.c.s
 
 src/wifi_config.obj: src/wifi_config.c.obj
@@ -391,7 +391,7 @@ src/wifi_config.obj: src/wifi_config.c.obj
 
 # target to build an object file
 src/wifi_config.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
 .PHONY : src/wifi_config.c.obj
 
 src/wifi_config.i: src/wifi_config.c.i
@@ -400,7 +400,7 @@ src/wifi_config.i: src/wifi_config.c.i
 
 # target to preprocess a source file
 src/wifi_config.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.i
 .PHONY : src/wifi_config.c.i
 
 src/wifi_config.s: src/wifi_config.c.s
@@ -409,7 +409,7 @@ src/wifi_config.s: src/wifi_config.c.s
 
 # target to generate assembly for a file
 src/wifi_config.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.s
 .PHONY : src/wifi_config.c.s
 
 src/wifi_scan.obj: src/wifi_scan.c.obj
@@ -418,7 +418,7 @@ src/wifi_scan.obj: src/wifi_scan.c.obj
 
 # target to build an object file
 src/wifi_scan.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
 .PHONY : src/wifi_scan.c.obj
 
 src/wifi_scan.i: src/wifi_scan.c.i
@@ -427,7 +427,7 @@ src/wifi_scan.i: src/wifi_scan.c.i
 
 # target to preprocess a source file
 src/wifi_scan.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.i
 .PHONY : src/wifi_scan.c.i
 
 src/wifi_scan.s: src/wifi_scan.c.s
@@ -436,7 +436,7 @@ src/wifi_scan.s: src/wifi_scan.c.s
 
 # target to generate assembly for a file
 src/wifi_scan.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.s
 .PHONY : src/wifi_scan.c.s
 
 # Help Target
@@ -493,6 +493,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

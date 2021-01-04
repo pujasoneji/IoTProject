@@ -5,7 +5,7 @@ camera = PiCamera()
 camera.rotation = 270
 while True:
 	ts = t.time()
-	camera.capture('/home/pi/picam/photos/%s.jpg' % ts)
+	camera.capture('/home/pi/IoTProject/picam/photos/%s.jpg' % int(ts))
 	t.sleep(5)
 	print("smile!")
 

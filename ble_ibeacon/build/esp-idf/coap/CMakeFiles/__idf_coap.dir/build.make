@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Include any dependencies generated for this target.
 include esp-idf/coap/CMakeFiles/__idf_coap.dir/depend.make
@@ -58,17 +58,17 @@ include esp-idf/coap/CMakeFiles/__idf_coap.dir/progress.make
 include esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/address.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/address.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/address.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/address.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/address.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/address.c > CMakeFiles/__idf_coap.dir/libcoap/src/address.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/address.c > CMakeFiles/__idf_coap.dir/libcoap/src/address.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/address.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/address.c -o CMakeFiles/__idf_coap.dir/libcoap/src/address.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/address.c -o CMakeFiles/__idf_coap.dir/libcoap/src/address.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj.requires:
 
@@ -82,17 +82,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/address.c.obj.provides.build:
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/async.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/async.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/async.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/async.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/async.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/async.c > CMakeFiles/__idf_coap.dir/libcoap/src/async.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/async.c > CMakeFiles/__idf_coap.dir/libcoap/src/async.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/async.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/async.c -o CMakeFiles/__idf_coap.dir/libcoap/src/async.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/async.c -o CMakeFiles/__idf_coap.dir/libcoap/src/async.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj.requires:
 
@@ -106,17 +106,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/async.c.obj.provides.build: e
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/block.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/block.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/block.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/block.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/block.c > CMakeFiles/__idf_coap.dir/libcoap/src/block.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/block.c > CMakeFiles/__idf_coap.dir/libcoap/src/block.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/block.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/block.c -o CMakeFiles/__idf_coap.dir/libcoap/src/block.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/block.c -o CMakeFiles/__idf_coap.dir/libcoap/src/block.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj.requires:
 
@@ -130,17 +130,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/block.c.obj.provides.build: e
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/coap_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/coap_event.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_event.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/coap_event.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_event.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/coap_event.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_event.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj.requires:
 
@@ -154,17 +154,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_event.c.obj.provides.bui
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/coap_hashkey.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/coap_hashkey.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_hashkey.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_hashkey.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/coap_hashkey.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_hashkey.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/coap_hashkey.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_hashkey.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj.requires:
 
@@ -178,17 +178,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_hashkey.c.obj.provides.b
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/coap_session.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/coap_session.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_session.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_session.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/coap_session.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_session.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/coap_session.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_session.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj.requires:
 
@@ -202,17 +202,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_session.c.obj.provides.b
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/coap_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/coap_time.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_time.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/coap_time.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_time.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/coap_time.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_time.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj.requires:
 
@@ -226,17 +226,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_time.c.obj.provides.buil
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj: /home/pi/esp-idf/components/coap/port/coap_debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-format-truncation -o CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj   -c /home/pi/esp-idf/components/coap/port/coap_debug.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj: /home/pi/IoTProject/esp-idf/components/coap/port/coap_debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-format-truncation -o CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/port/coap_debug.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/port/coap_debug.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-format-truncation -E /home/pi/esp-idf/components/coap/port/coap_debug.c > CMakeFiles/__idf_coap.dir/port/coap_debug.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-format-truncation -E /home/pi/IoTProject/esp-idf/components/coap/port/coap_debug.c > CMakeFiles/__idf_coap.dir/port/coap_debug.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/port/coap_debug.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-format-truncation -S /home/pi/esp-idf/components/coap/port/coap_debug.c -o CMakeFiles/__idf_coap.dir/port/coap_debug.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-format-truncation -S /home/pi/IoTProject/esp-idf/components/coap/port/coap_debug.c -o CMakeFiles/__idf_coap.dir/port/coap_debug.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj.requires:
 
@@ -250,17 +250,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_debug.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/encode.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/encode.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/encode.c > CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/encode.c > CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/encode.c -o CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/encode.c -o CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj.requires:
 
@@ -274,17 +274,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/encode.c.obj.provides.build: 
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/mem.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/mem.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/mem.c > CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/mem.c > CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/mem.c -o CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/mem.c -o CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj.requires:
 
@@ -298,17 +298,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/mem.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/net.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/net.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/net.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/net.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/net.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/net.c > CMakeFiles/__idf_coap.dir/libcoap/src/net.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/net.c > CMakeFiles/__idf_coap.dir/libcoap/src/net.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/net.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/net.c -o CMakeFiles/__idf_coap.dir/libcoap/src/net.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/net.c -o CMakeFiles/__idf_coap.dir/libcoap/src/net.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj.requires:
 
@@ -322,17 +322,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/net.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/option.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/option.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/option.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/option.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/option.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/option.c > CMakeFiles/__idf_coap.dir/libcoap/src/option.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/option.c > CMakeFiles/__idf_coap.dir/libcoap/src/option.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/option.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/option.c -o CMakeFiles/__idf_coap.dir/libcoap/src/option.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/option.c -o CMakeFiles/__idf_coap.dir/libcoap/src/option.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj.requires:
 
@@ -346,17 +346,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/option.c.obj.provides.build: 
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/pdu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/pdu.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/pdu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/pdu.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/pdu.c > CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/pdu.c > CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/pdu.c -o CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/pdu.c -o CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj.requires:
 
@@ -370,17 +370,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/pdu.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/resource.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/resource.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/resource.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/resource.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/resource.c > CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/resource.c > CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/resource.c -o CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/resource.c -o CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj.requires:
 
@@ -394,17 +394,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/resource.c.obj.provides.build
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/str.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/str.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/str.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/str.c > CMakeFiles/__idf_coap.dir/libcoap/src/str.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/str.c > CMakeFiles/__idf_coap.dir/libcoap/src/str.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/str.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/str.c -o CMakeFiles/__idf_coap.dir/libcoap/src/str.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/str.c -o CMakeFiles/__idf_coap.dir/libcoap/src/str.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj.requires:
 
@@ -418,17 +418,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/str.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/subscribe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/subscribe.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/subscribe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/subscribe.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/subscribe.c > CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/subscribe.c > CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/subscribe.c -o CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/subscribe.c -o CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj.requires:
 
@@ -442,17 +442,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/subscribe.c.obj.provides.buil
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/uri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/uri.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/uri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/uri.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/uri.c > CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/uri.c > CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/uri.c -o CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/uri.c -o CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj.requires:
 
@@ -466,17 +466,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/uri.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj: /home/pi/esp-idf/components/coap/libcoap/src/coap_io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj   -c /home/pi/esp-idf/components/coap/libcoap/src/coap_io.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj: /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_io.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/libcoap/src/coap_io.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_io.c > CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/libcoap/src/coap_io.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/libcoap/src/coap_io.c -o CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj.requires:
 
@@ -490,17 +490,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/libcoap/src/coap_io.c.obj.provides.build:
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj: /home/pi/esp-idf/components/coap/port/coap_notls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj   -c /home/pi/esp-idf/components/coap/port/coap_notls.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj: /home/pi/IoTProject/esp-idf/components/coap/port/coap_notls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/port/coap_notls.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/port/coap_notls.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/port/coap_notls.c > CMakeFiles/__idf_coap.dir/port/coap_notls.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/port/coap_notls.c > CMakeFiles/__idf_coap.dir/port/coap_notls.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/port/coap_notls.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/port/coap_notls.c -o CMakeFiles/__idf_coap.dir/port/coap_notls.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/port/coap_notls.c -o CMakeFiles/__idf_coap.dir/port/coap_notls.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj.requires:
 
@@ -514,17 +514,17 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c.obj.provides.build: esp
 
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj: esp-idf/coap/CMakeFiles/__idf_coap.dir/flags.make
-esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj: /home/pi/esp-idf/components/coap/port/coap_mbedtls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj   -c /home/pi/esp-idf/components/coap/port/coap_mbedtls.c
+esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj: /home/pi/IoTProject/esp-idf/components/coap/port/coap_mbedtls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj   -c /home/pi/IoTProject/esp-idf/components/coap/port/coap_mbedtls.c
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/coap/port/coap_mbedtls.c > CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/coap/port/coap_mbedtls.c > CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.i
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/coap/port/coap_mbedtls.c -o CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/coap/port/coap_mbedtls.c -o CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.s
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj.requires:
 
@@ -585,9 +585,9 @@ esp-idf/coap/libcoap.a: esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_notls.c
 esp-idf/coap/libcoap.a: esp-idf/coap/CMakeFiles/__idf_coap.dir/port/coap_mbedtls.c.obj
 esp-idf/coap/libcoap.a: esp-idf/coap/CMakeFiles/__idf_coap.dir/build.make
 esp-idf/coap/libcoap.a: esp-idf/coap/CMakeFiles/__idf_coap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libcoap.a"
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && $(CMAKE_COMMAND) -P CMakeFiles/__idf_coap.dir/cmake_clean_target.cmake
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_coap.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libcoap.a"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && $(CMAKE_COMMAND) -P CMakeFiles/__idf_coap.dir/cmake_clean_target.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_coap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/coap/CMakeFiles/__idf_coap.dir/build: esp-idf/coap/libcoap.a
@@ -618,10 +618,10 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/requires: esp-idf/coap/CMakeFiles/__idf_c
 .PHONY : esp-idf/coap/CMakeFiles/__idf_coap.dir/requires
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/coap && $(CMAKE_COMMAND) -P CMakeFiles/__idf_coap.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap && $(CMAKE_COMMAND) -P CMakeFiles/__idf_coap.dir/cmake_clean.cmake
 .PHONY : esp-idf/coap/CMakeFiles/__idf_coap.dir/clean
 
 esp-idf/coap/CMakeFiles/__idf_coap.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/coap /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/coap /home/pi/ble_ibeacon/build/esp-idf/coap/CMakeFiles/__idf_coap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/coap /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap /home/pi/IoTProject/ble_ibeacon/build/esp-idf/coap/CMakeFiles/__idf_coap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/coap/CMakeFiles/__idf_coap.dir/depend
 

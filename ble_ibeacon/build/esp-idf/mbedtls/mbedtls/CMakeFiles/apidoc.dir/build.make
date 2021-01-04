@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for apidoc.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
 include esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/progress.make
 
 esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc:
-	cd /home/pi/esp-idf/components/mbedtls/mbedtls/doxygen && doxygen mbedtls.doxyfile
+	cd /home/pi/IoTProject/esp-idf/components/mbedtls/mbedtls/doxygen && doxygen mbedtls.doxyfile
 
 apidoc: esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc
 apidoc: esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/build.make
@@ -67,10 +67,10 @@ esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/build: apidoc
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/build
 
 esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/clean
 
 esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/mbedtls/mbedtls /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls /home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/mbedtls/mbedtls /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls /home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/depend
 

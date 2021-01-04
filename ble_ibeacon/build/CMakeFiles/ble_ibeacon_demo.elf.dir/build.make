@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ble_ibeacon_demo.elf.dir/depend.make
@@ -58,21 +58,21 @@ include CMakeFiles/ble_ibeacon_demo.elf.dir/progress.make
 include CMakeFiles/ble_ibeacon_demo.elf.dir/flags.make
 
 project_elf_src.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src.c"
-	/usr/bin/cmake -E touch /home/pi/ble_ibeacon/build/project_elf_src.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src.c"
+	/usr/bin/cmake -E touch /home/pi/IoTProject/ble_ibeacon/build/project_elf_src.c
 
 CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj: CMakeFiles/ble_ibeacon_demo.elf.dir/flags.make
 CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj: project_elf_src.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj"
-	/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj   -c /home/pi/ble_ibeacon/build/project_elf_src.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj"
+	/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj   -c /home/pi/IoTProject/ble_ibeacon/build/project_elf_src.c
 
 CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.i"
-	/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/ble_ibeacon/build/project_elf_src.c > CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.i
+	/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/ble_ibeacon/build/project_elf_src.c > CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.i
 
 CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.s"
-	/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/ble_ibeacon/build/project_elf_src.c -o CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.s
+	/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/ble_ibeacon/build/project_elf_src.c -o CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.s
 
 CMakeFiles/ble_ibeacon_demo.elf.dir/project_elf_src.c.obj.requires:
 
@@ -259,15 +259,15 @@ ble_ibeacon_demo.elf: esp-idf/tcpip_adapter/libtcpip_adapter.a
 ble_ibeacon_demo.elf: esp-idf/esp_event/libesp_event.a
 ble_ibeacon_demo.elf: esp-idf/esp_netif/libesp_netif.a
 ble_ibeacon_demo.elf: esp-idf/esp_eth/libesp_eth.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/librtc.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libphy.a
 ble_ibeacon_demo.elf: esp-idf/nghttp/libnghttp.a
 ble_ibeacon_demo.elf: esp-idf/esp-tls/libesp-tls.a
 ble_ibeacon_demo.elf: esp-idf/tcp_transport/libtcp_transport.a
@@ -305,15 +305,15 @@ ble_ibeacon_demo.elf: esp-idf/tcpip_adapter/libtcpip_adapter.a
 ble_ibeacon_demo.elf: esp-idf/esp_event/libesp_event.a
 ble_ibeacon_demo.elf: esp-idf/esp_netif/libesp_netif.a
 ble_ibeacon_demo.elf: esp-idf/esp_eth/libesp_eth.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/librtc.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libphy.a
 ble_ibeacon_demo.elf: esp-idf/nghttp/libnghttp.a
 ble_ibeacon_demo.elf: esp-idf/esp-tls/libesp-tls.a
 ble_ibeacon_demo.elf: esp-idf/tcp_transport/libtcp_transport.a
@@ -351,15 +351,15 @@ ble_ibeacon_demo.elf: esp-idf/tcpip_adapter/libtcpip_adapter.a
 ble_ibeacon_demo.elf: esp-idf/esp_event/libesp_event.a
 ble_ibeacon_demo.elf: esp-idf/esp_netif/libesp_netif.a
 ble_ibeacon_demo.elf: esp-idf/esp_eth/libesp_eth.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/librtc.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libphy.a
 ble_ibeacon_demo.elf: esp-idf/nghttp/libnghttp.a
 ble_ibeacon_demo.elf: esp-idf/esp-tls/libesp-tls.a
 ble_ibeacon_demo.elf: esp-idf/tcp_transport/libtcp_transport.a
@@ -397,34 +397,34 @@ ble_ibeacon_demo.elf: esp-idf/tcpip_adapter/libtcpip_adapter.a
 ble_ibeacon_demo.elf: esp-idf/esp_event/libesp_event.a
 ble_ibeacon_demo.elf: esp-idf/esp_netif/libesp_netif.a
 ble_ibeacon_demo.elf: esp-idf/esp_eth/libesp_eth.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/librtc.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_wifi/lib/esp32/libphy.a
 ble_ibeacon_demo.elf: esp-idf/nghttp/libnghttp.a
 ble_ibeacon_demo.elf: esp-idf/esp-tls/libesp-tls.a
 ble_ibeacon_demo.elf: esp-idf/tcp_transport/libtcp_transport.a
 ble_ibeacon_demo.elf: esp-idf/pthread/libpthread.a
 ble_ibeacon_demo.elf: esp-idf/newlib/libnewlib.a
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/xtensa/esp32/libhal.a
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/xtensa/esp32/libhal.a
 ble_ibeacon_demo.elf: esp-idf/app_trace/libapp_trace.a
 ble_ibeacon_demo.elf: esp-idf/app_trace/libapp_trace.a
 ble_ibeacon_demo.elf: esp-idf/esp32/esp32_out.ld
 ble_ibeacon_demo.elf: esp-idf/esp32/ld/esp32.project.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp32/ld/esp32.peripherals.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
-ble_ibeacon_demo.elf: /home/pi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp32/ld/esp32.peripherals.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+ble_ibeacon_demo.elf: /home/pi/IoTProject/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
 ble_ibeacon_demo.elf: CMakeFiles/ble_ibeacon_demo.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ble_ibeacon_demo.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ble_ibeacon_demo.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ble_ibeacon_demo.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -441,6 +441,6 @@ CMakeFiles/ble_ibeacon_demo.elf.dir/clean:
 .PHONY : CMakeFiles/ble_ibeacon_demo.elf.dir/clean
 
 CMakeFiles/ble_ibeacon_demo.elf.dir/depend: project_elf_src.c
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/ble_ibeacon /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/CMakeFiles/ble_ibeacon_demo.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles/ble_ibeacon_demo.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ble_ibeacon_demo.elf.dir/depend
 

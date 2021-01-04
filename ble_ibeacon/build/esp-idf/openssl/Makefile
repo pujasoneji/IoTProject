@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles /home/pi/ble_ibeacon/build/esp-idf/openssl/CMakeFiles/progress.marks
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles /home/pi/IoTProject/ble_ibeacon/build/esp-idf/openssl/CMakeFiles/progress.marks
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/clean
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule
 .PHONY : esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ __idf_openssl: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule
 
 # fast build rule for target.
 __idf_openssl/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build
 .PHONY : __idf_openssl/fast
 
 library/ssl_cert.obj: library/ssl_cert.c.obj
@@ -175,7 +175,7 @@ library/ssl_cert.obj: library/ssl_cert.c.obj
 
 # target to build an object file
 library/ssl_cert.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.obj
 .PHONY : library/ssl_cert.c.obj
 
 library/ssl_cert.i: library/ssl_cert.c.i
@@ -184,7 +184,7 @@ library/ssl_cert.i: library/ssl_cert.c.i
 
 # target to preprocess a source file
 library/ssl_cert.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.i
 .PHONY : library/ssl_cert.c.i
 
 library/ssl_cert.s: library/ssl_cert.c.s
@@ -193,7 +193,7 @@ library/ssl_cert.s: library/ssl_cert.c.s
 
 # target to generate assembly for a file
 library/ssl_cert.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_cert.c.s
 .PHONY : library/ssl_cert.c.s
 
 library/ssl_lib.obj: library/ssl_lib.c.obj
@@ -202,7 +202,7 @@ library/ssl_lib.obj: library/ssl_lib.c.obj
 
 # target to build an object file
 library/ssl_lib.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.obj
 .PHONY : library/ssl_lib.c.obj
 
 library/ssl_lib.i: library/ssl_lib.c.i
@@ -211,7 +211,7 @@ library/ssl_lib.i: library/ssl_lib.c.i
 
 # target to preprocess a source file
 library/ssl_lib.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.i
 .PHONY : library/ssl_lib.c.i
 
 library/ssl_lib.s: library/ssl_lib.c.s
@@ -220,7 +220,7 @@ library/ssl_lib.s: library/ssl_lib.c.s
 
 # target to generate assembly for a file
 library/ssl_lib.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_lib.c.s
 .PHONY : library/ssl_lib.c.s
 
 library/ssl_methods.obj: library/ssl_methods.c.obj
@@ -229,7 +229,7 @@ library/ssl_methods.obj: library/ssl_methods.c.obj
 
 # target to build an object file
 library/ssl_methods.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.obj
 .PHONY : library/ssl_methods.c.obj
 
 library/ssl_methods.i: library/ssl_methods.c.i
@@ -238,7 +238,7 @@ library/ssl_methods.i: library/ssl_methods.c.i
 
 # target to preprocess a source file
 library/ssl_methods.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.i
 .PHONY : library/ssl_methods.c.i
 
 library/ssl_methods.s: library/ssl_methods.c.s
@@ -247,7 +247,7 @@ library/ssl_methods.s: library/ssl_methods.c.s
 
 # target to generate assembly for a file
 library/ssl_methods.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_methods.c.s
 .PHONY : library/ssl_methods.c.s
 
 library/ssl_pkey.obj: library/ssl_pkey.c.obj
@@ -256,7 +256,7 @@ library/ssl_pkey.obj: library/ssl_pkey.c.obj
 
 # target to build an object file
 library/ssl_pkey.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.obj
 .PHONY : library/ssl_pkey.c.obj
 
 library/ssl_pkey.i: library/ssl_pkey.c.i
@@ -265,7 +265,7 @@ library/ssl_pkey.i: library/ssl_pkey.c.i
 
 # target to preprocess a source file
 library/ssl_pkey.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.i
 .PHONY : library/ssl_pkey.c.i
 
 library/ssl_pkey.s: library/ssl_pkey.c.s
@@ -274,7 +274,7 @@ library/ssl_pkey.s: library/ssl_pkey.c.s
 
 # target to generate assembly for a file
 library/ssl_pkey.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_pkey.c.s
 .PHONY : library/ssl_pkey.c.s
 
 library/ssl_stack.obj: library/ssl_stack.c.obj
@@ -283,7 +283,7 @@ library/ssl_stack.obj: library/ssl_stack.c.obj
 
 # target to build an object file
 library/ssl_stack.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.obj
 .PHONY : library/ssl_stack.c.obj
 
 library/ssl_stack.i: library/ssl_stack.c.i
@@ -292,7 +292,7 @@ library/ssl_stack.i: library/ssl_stack.c.i
 
 # target to preprocess a source file
 library/ssl_stack.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.i
 .PHONY : library/ssl_stack.c.i
 
 library/ssl_stack.s: library/ssl_stack.c.s
@@ -301,7 +301,7 @@ library/ssl_stack.s: library/ssl_stack.c.s
 
 # target to generate assembly for a file
 library/ssl_stack.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_stack.c.s
 .PHONY : library/ssl_stack.c.s
 
 library/ssl_x509.obj: library/ssl_x509.c.obj
@@ -310,7 +310,7 @@ library/ssl_x509.obj: library/ssl_x509.c.obj
 
 # target to build an object file
 library/ssl_x509.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.obj
 .PHONY : library/ssl_x509.c.obj
 
 library/ssl_x509.i: library/ssl_x509.c.i
@@ -319,7 +319,7 @@ library/ssl_x509.i: library/ssl_x509.c.i
 
 # target to preprocess a source file
 library/ssl_x509.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.i
 .PHONY : library/ssl_x509.c.i
 
 library/ssl_x509.s: library/ssl_x509.c.s
@@ -328,7 +328,7 @@ library/ssl_x509.s: library/ssl_x509.c.s
 
 # target to generate assembly for a file
 library/ssl_x509.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/library/ssl_x509.c.s
 .PHONY : library/ssl_x509.c.s
 
 platform/ssl_pm.obj: platform/ssl_pm.c.obj
@@ -337,7 +337,7 @@ platform/ssl_pm.obj: platform/ssl_pm.c.obj
 
 # target to build an object file
 platform/ssl_pm.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.obj
 .PHONY : platform/ssl_pm.c.obj
 
 platform/ssl_pm.i: platform/ssl_pm.c.i
@@ -346,7 +346,7 @@ platform/ssl_pm.i: platform/ssl_pm.c.i
 
 # target to preprocess a source file
 platform/ssl_pm.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.i
 .PHONY : platform/ssl_pm.c.i
 
 platform/ssl_pm.s: platform/ssl_pm.c.s
@@ -355,7 +355,7 @@ platform/ssl_pm.s: platform/ssl_pm.c.s
 
 # target to generate assembly for a file
 platform/ssl_pm.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_pm.c.s
 .PHONY : platform/ssl_pm.c.s
 
 platform/ssl_port.obj: platform/ssl_port.c.obj
@@ -364,7 +364,7 @@ platform/ssl_port.obj: platform/ssl_port.c.obj
 
 # target to build an object file
 platform/ssl_port.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.obj
 .PHONY : platform/ssl_port.c.obj
 
 platform/ssl_port.i: platform/ssl_port.c.i
@@ -373,7 +373,7 @@ platform/ssl_port.i: platform/ssl_port.c.i
 
 # target to preprocess a source file
 platform/ssl_port.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.i
 .PHONY : platform/ssl_port.c.i
 
 platform/ssl_port.s: platform/ssl_port.c.s
@@ -382,7 +382,7 @@ platform/ssl_port.s: platform/ssl_port.c.s
 
 # target to generate assembly for a file
 platform/ssl_port.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/platform/ssl_port.c.s
 .PHONY : platform/ssl_port.c.s
 
 # Help Target
@@ -433,6 +433,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

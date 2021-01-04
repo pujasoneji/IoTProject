@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles /home/pi/ble_ibeacon/build/esp-idf/esp_ringbuf/CMakeFiles/progress.marks
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ble_ibeacon/build/CMakeFiles 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp_ringbuf/CMakeFiles/progress.marks
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/clean
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/preinstall
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
 .PHONY : esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ __idf_esp_ringbuf: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
 
 # fast build rule for target.
 __idf_esp_ringbuf/fast:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build
 .PHONY : __idf_esp_ringbuf/fast
 
 ringbuf.obj: ringbuf.c.obj
@@ -175,7 +175,7 @@ ringbuf.obj: ringbuf.c.obj
 
 # target to build an object file
 ringbuf.c.obj:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj
 .PHONY : ringbuf.c.obj
 
 ringbuf.i: ringbuf.c.i
@@ -184,7 +184,7 @@ ringbuf.i: ringbuf.c.i
 
 # target to preprocess a source file
 ringbuf.c.i:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.i
 .PHONY : ringbuf.c.i
 
 ringbuf.s: ringbuf.c.s
@@ -193,7 +193,7 @@ ringbuf.s: ringbuf.c.s
 
 # target to generate assembly for a file
 ringbuf.c.s:
-	cd /home/pi/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(MAKE) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.s
 .PHONY : ringbuf.c.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

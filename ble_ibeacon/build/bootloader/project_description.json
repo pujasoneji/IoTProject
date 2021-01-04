@@ -1,20 +1,20 @@
 {
     "project_name":       "bootloader",
-    "project_path":       "/home/pi/esp-idf/components/bootloader/subproject",
-    "build_dir":          "/home/pi/ble_ibeacon/build/bootloader",
-    "config_file":        "/home/pi/ble_ibeacon/sdkconfig",
+    "project_path":       "/home/pi/IoTProject/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/pi/IoTProject/ble_ibeacon/build/bootloader",
+    "config_file":        "/home/pi/IoTProject/ble_ibeacon/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
-    "git_revision":       "v4.1-520-gc3324a82a",
+    "git_revision":       "v4.1-521-ge00419c97-dirty",
     "target":             "esp32",
     "phy_data_partition": "",
     "monitor_baud" :      "115200",
     "monitor_toolprefix": "xtensa-esp32-elf-",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "/home/pi/esp-idf/components/efuse/Kconfig;/home/pi/esp-idf/components/esp32/Kconfig;/home/pi/esp-idf/components/esp_common/Kconfig;/home/pi/esp-idf/components/log/Kconfig;/home/pi/esp-idf/components/spi_flash/Kconfig",
-        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/pi/esp-idf/components/bootloader/Kconfig.projbuild;/home/pi/esp-idf/components/esptool_py/Kconfig.projbuild;/home/pi/esp-idf/components/partition_table/Kconfig.projbuild"
+        "COMPONENT_KCONFIGS" : "/home/pi/IoTProject/esp-idf/components/efuse/Kconfig;/home/pi/IoTProject/esp-idf/components/esp32/Kconfig;/home/pi/IoTProject/esp-idf/components/esp_common/Kconfig;/home/pi/IoTProject/esp-idf/components/log/Kconfig;/home/pi/IoTProject/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/pi/IoTProject/esp-idf/components/bootloader/Kconfig.projbuild;/home/pi/IoTProject/esp-idf/components/esptool_py/Kconfig.projbuild;/home/pi/IoTProject/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
-    "build_component_paths" : [ "/home/pi/esp-idf/components/bootloader", "/home/pi/esp-idf/components/bootloader_support", "/home/pi/esp-idf/components/efuse", "/home/pi/esp-idf/components/esp32", "/home/pi/esp-idf/components/esp_common", "/home/pi/esp-idf/components/esp_rom", "/home/pi/esp-idf/components/esptool_py", "/home/pi/esp-idf/components/log", "/home/pi/esp-idf/components/bootloader/subproject/main", "/home/pi/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/pi/esp-idf/components/partition_table", "/home/pi/esp-idf/components/soc", "/home/pi/esp-idf/components/spi_flash", "/home/pi/esp-idf/components/xtensa", "" ]
+    "build_component_paths" : [ "/home/pi/IoTProject/esp-idf/components/bootloader", "/home/pi/IoTProject/esp-idf/components/bootloader_support", "/home/pi/IoTProject/esp-idf/components/efuse", "/home/pi/IoTProject/esp-idf/components/esp32", "/home/pi/IoTProject/esp-idf/components/esp_common", "/home/pi/IoTProject/esp-idf/components/esp_rom", "/home/pi/IoTProject/esp-idf/components/esptool_py", "/home/pi/IoTProject/esp-idf/components/log", "/home/pi/IoTProject/esp-idf/components/bootloader/subproject/main", "/home/pi/IoTProject/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/pi/IoTProject/esp-idf/components/partition_table", "/home/pi/IoTProject/esp-idf/components/soc", "/home/pi/IoTProject/esp-idf/components/spi_flash", "/home/pi/IoTProject/esp-idf/components/xtensa", "" ]
 }

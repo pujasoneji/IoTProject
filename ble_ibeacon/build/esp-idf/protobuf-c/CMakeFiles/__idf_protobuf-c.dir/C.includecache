@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/esp-idf/components/esp_common/include/esp_compiler.h
+/home/pi/IoTProject/esp-idf/components/esp_common/include/esp_compiler.h
 
-/home/pi/esp-idf/components/newlib/platform_include/assert.h
+/home/pi/IoTProject/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-/home/pi/esp-idf/components/newlib/platform_include/esp_compiler.h
+/home/pi/IoTProject/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-/home/pi/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c
+/home/pi/IoTProject/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c
 stdlib.h
 -
 string.h
 -
 protobuf-c.h
-/home/pi/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
+/home/pi/IoTProject/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
 
-/home/pi/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
+/home/pi/IoTProject/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
 assert.h
 -
 limits.h

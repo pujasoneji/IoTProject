@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Include any dependencies generated for this target.
 include esp-idf/bt/CMakeFiles/__idf_bt.dir/depend.make
@@ -58,17 +58,17 @@ include esp-idf/bt/CMakeFiles/__idf_bt.dir/progress.make
 include esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj: /home/pi/esp-idf/components/bt/controller/bt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/controller/bt.c.obj   -c /home/pi/esp-idf/components/bt/controller/bt.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj: /home/pi/IoTProject/esp-idf/components/bt/controller/bt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/controller/bt.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/controller/bt.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/controller/bt.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/controller/bt.c > CMakeFiles/__idf_bt.dir/controller/bt.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/controller/bt.c > CMakeFiles/__idf_bt.dir/controller/bt.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/controller/bt.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/controller/bt.c -o CMakeFiles/__idf_bt.dir/controller/bt.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/controller/bt.c -o CMakeFiles/__idf_bt.dir/controller/bt.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj.requires:
 
@@ -82,17 +82,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/bt.c.obj.provides.build: esp-idf/b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj: /home/pi/esp-idf/components/bt/common/btc/core/btc_alarm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj   -c /home/pi/esp-idf/components/bt/common/btc/core/btc_alarm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_alarm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_alarm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/btc/core/btc_alarm.c > CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_alarm.c > CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/btc/core/btc_alarm.c -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_alarm.c -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj.requires:
 
@@ -106,17 +106,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj.provides.buil
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj: /home/pi/esp-idf/components/bt/common/btc/core/btc_manage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj   -c /home/pi/esp-idf/components/bt/common/btc/core/btc_manage.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_manage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_manage.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/btc/core/btc_manage.c > CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_manage.c > CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/btc/core/btc_manage.c -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_manage.c -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj.requires:
 
@@ -130,17 +130,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj.provides.bui
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: /home/pi/esp-idf/components/bt/common/btc/core/btc_task.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj   -c /home/pi/esp-idf/components/bt/common/btc/core/btc_task.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_task.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/btc/core/btc_task.c > CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_task.c > CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/btc/core/btc_task.c -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/btc/core/btc_task.c -o CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj.requires:
 
@@ -154,17 +154,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj.provides.build
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj: /home/pi/esp-idf/components/bt/common/osi/alarm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/alarm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/alarm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/alarm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/alarm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/alarm.c > CMakeFiles/__idf_bt.dir/common/osi/alarm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/alarm.c > CMakeFiles/__idf_bt.dir/common/osi/alarm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/alarm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/alarm.c -o CMakeFiles/__idf_bt.dir/common/osi/alarm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/alarm.c -o CMakeFiles/__idf_bt.dir/common/osi/alarm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj.requires:
 
@@ -178,17 +178,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj.provides.build: esp-id
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj: /home/pi/esp-idf/components/bt/common/osi/allocator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/allocator.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/allocator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/allocator.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/allocator.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/allocator.c > CMakeFiles/__idf_bt.dir/common/osi/allocator.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/allocator.c > CMakeFiles/__idf_bt.dir/common/osi/allocator.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/allocator.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/allocator.c -o CMakeFiles/__idf_bt.dir/common/osi/allocator.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/allocator.c -o CMakeFiles/__idf_bt.dir/common/osi/allocator.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj.requires:
 
@@ -202,17 +202,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj.provides.build: es
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj: /home/pi/esp-idf/components/bt/common/osi/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/buffer.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/buffer.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/buffer.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/buffer.c > CMakeFiles/__idf_bt.dir/common/osi/buffer.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/buffer.c > CMakeFiles/__idf_bt.dir/common/osi/buffer.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/buffer.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/buffer.c -o CMakeFiles/__idf_bt.dir/common/osi/buffer.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/buffer.c -o CMakeFiles/__idf_bt.dir/common/osi/buffer.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj.requires:
 
@@ -226,17 +226,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj.provides.build: esp-i
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj: /home/pi/esp-idf/components/bt/common/osi/config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/config.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/config.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/config.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/config.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/config.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/config.c > CMakeFiles/__idf_bt.dir/common/osi/config.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/config.c > CMakeFiles/__idf_bt.dir/common/osi/config.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/config.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/config.c -o CMakeFiles/__idf_bt.dir/common/osi/config.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/config.c -o CMakeFiles/__idf_bt.dir/common/osi/config.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj.requires:
 
@@ -250,17 +250,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj.provides.build: esp-i
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj: /home/pi/esp-idf/components/bt/common/osi/fixed_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/fixed_queue.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/fixed_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/fixed_queue.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/fixed_queue.c > CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/fixed_queue.c > CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/fixed_queue.c -o CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/fixed_queue.c -o CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj.requires:
 
@@ -274,17 +274,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj.provides.build: 
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj: /home/pi/esp-idf/components/bt/common/osi/future.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/future.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/future.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/future.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/future.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/future.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/future.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/future.c > CMakeFiles/__idf_bt.dir/common/osi/future.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/future.c > CMakeFiles/__idf_bt.dir/common/osi/future.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/future.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/future.c -o CMakeFiles/__idf_bt.dir/common/osi/future.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/future.c -o CMakeFiles/__idf_bt.dir/common/osi/future.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj.requires:
 
@@ -298,17 +298,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj.provides.build: esp-i
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj: /home/pi/esp-idf/components/bt/common/osi/hash_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/hash_functions.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_functions.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/hash_functions.c > CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_functions.c > CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/hash_functions.c -o CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_functions.c -o CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj.requires:
 
@@ -322,17 +322,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj.provides.buil
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj: /home/pi/esp-idf/components/bt/common/osi/hash_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/hash_map.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_map.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/hash_map.c > CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_map.c > CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/hash_map.c -o CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/hash_map.c -o CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj.requires:
 
@@ -346,17 +346,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj.provides.build: esp
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj: /home/pi/esp-idf/components/bt/common/osi/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/list.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/list.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/list.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/list.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/list.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/list.c > CMakeFiles/__idf_bt.dir/common/osi/list.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/list.c > CMakeFiles/__idf_bt.dir/common/osi/list.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/list.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/list.c -o CMakeFiles/__idf_bt.dir/common/osi/list.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/list.c -o CMakeFiles/__idf_bt.dir/common/osi/list.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj.requires:
 
@@ -370,17 +370,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj.provides.build: esp-idf
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj: /home/pi/esp-idf/components/bt/common/osi/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/mutex.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/mutex.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/mutex.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/mutex.c > CMakeFiles/__idf_bt.dir/common/osi/mutex.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/mutex.c > CMakeFiles/__idf_bt.dir/common/osi/mutex.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/mutex.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/mutex.c -o CMakeFiles/__idf_bt.dir/common/osi/mutex.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/mutex.c -o CMakeFiles/__idf_bt.dir/common/osi/mutex.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj.requires:
 
@@ -394,17 +394,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj.provides.build: esp-id
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj: /home/pi/esp-idf/components/bt/common/osi/thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/thread.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/thread.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/thread.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/thread.c > CMakeFiles/__idf_bt.dir/common/osi/thread.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/thread.c > CMakeFiles/__idf_bt.dir/common/osi/thread.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/thread.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/thread.c -o CMakeFiles/__idf_bt.dir/common/osi/thread.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/thread.c -o CMakeFiles/__idf_bt.dir/common/osi/thread.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj.requires:
 
@@ -418,17 +418,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj.provides.build: esp-i
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj: /home/pi/esp-idf/components/bt/common/osi/osi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/osi.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/osi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/osi.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/osi.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/osi.c > CMakeFiles/__idf_bt.dir/common/osi/osi.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/osi.c > CMakeFiles/__idf_bt.dir/common/osi/osi.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/osi.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/osi.c -o CMakeFiles/__idf_bt.dir/common/osi/osi.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/osi.c -o CMakeFiles/__idf_bt.dir/common/osi/osi.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj.requires:
 
@@ -442,17 +442,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj.provides.build: esp-idf/
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj: /home/pi/esp-idf/components/bt/common/osi/semaphore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj   -c /home/pi/esp-idf/components/bt/common/osi/semaphore.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj: /home/pi/IoTProject/esp-idf/components/bt/common/osi/semaphore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/common/osi/semaphore.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/common/osi/semaphore.c > CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/common/osi/semaphore.c > CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/common/osi/semaphore.c -o CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/common/osi/semaphore.c -o CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj.requires:
 
@@ -466,17 +466,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj.provides.build: es
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_a2dp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj.requires:
 
@@ -490,17 +490,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_avrc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj.requires:
 
@@ -514,17 +514,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_blufi_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj.requires:
 
@@ -538,17 +538,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_blufi_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_device.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj.requires:
 
@@ -562,17 +562,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_bt_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj.requires:
 
@@ -586,17 +586,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj.provides
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_ble_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj.requires:
 
@@ -610,17 +610,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gap_bt_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj.requires:
 
@@ -634,17 +634,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatt_common_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj.requires:
 
@@ -658,17 +658,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gattc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj.requires:
 
@@ -682,17 +682,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_gatts_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj.requires:
 
@@ -706,17 +706,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_ag_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj.requires:
 
@@ -730,17 +730,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_hf_client_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj.requires:
 
@@ -754,17 +754,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/api/esp_spp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj.requires:
 
@@ -778,17 +778,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj.provides
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/ar/bta_ar.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj.requires:
 
@@ -802,17 +802,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_aact.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj.requires:
 
@@ -826,17 +826,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj.requires:
 
@@ -850,17 +850,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj.requires:
 
@@ -874,17 +874,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj.requires:
 
@@ -898,17 +898,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ci.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj.requires:
 
@@ -922,17 +922,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj.requires:
 
@@ -946,17 +946,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj.requires:
 
@@ -970,17 +970,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/av/bta_av_ssm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj.requires:
 
@@ -994,17 +994,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj.requires:
 
@@ -1018,17 +1018,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj.requires:
 
@@ -1042,17 +1042,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj.requires:
 
@@ -1066,17 +1066,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_ci.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj.requires:
 
@@ -1090,17 +1090,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj.requires:
 
@@ -1114,17 +1114,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj.requires:
 
@@ -1138,17 +1138,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_pm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj.requires:
 
@@ -1162,17 +1162,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/dm/bta_dm_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj.requires:
 
@@ -1186,17 +1186,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatt_common.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj.requires:
 
@@ -1210,17 +1210,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj.requires:
 
@@ -1234,17 +1234,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj.requires:
 
@@ -1258,17 +1258,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_cache.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj.requires:
 
@@ -1282,17 +1282,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_ci.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj.requires:
 
@@ -1306,17 +1306,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj.requires:
 
@@ -1330,17 +1330,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj.requires:
 
@@ -1354,17 +1354,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gattc_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj.requires:
 
@@ -1378,17 +1378,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj.requires:
 
@@ -1402,17 +1402,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj.requires:
 
@@ -1426,17 +1426,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj.requires:
 
@@ -1450,17 +1450,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj.requires:
 
@@ -1474,17 +1474,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/gatt/bta_gatts_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj.requires:
 
@@ -1498,17 +1498,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj.requires:
 
@@ -1522,17 +1522,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj.requires:
 
@@ -1546,17 +1546,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj.requires:
 
@@ -1570,17 +1570,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_le.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj.requires:
 
@@ -1594,17 +1594,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj.requires:
 
@@ -1618,17 +1618,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hh/bta_hh_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj.requires:
 
@@ -1642,17 +1642,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj.requires:
 
@@ -1666,17 +1666,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj.requires:
 
@@ -1690,17 +1690,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj.requires:
 
@@ -1714,17 +1714,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/jv/bta_jv_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj.requires:
 
@@ -1738,17 +1738,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj.requires:
 
@@ -1762,17 +1762,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj.requires:
 
@@ -1786,17 +1786,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_at.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj.requires:
 
@@ -1810,17 +1810,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj.requires:
 
@@ -1834,17 +1834,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_cmd.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj.requires:
 
@@ -1858,17 +1858,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj.requires:
 
@@ -1882,17 +1882,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_rfc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj.requires:
 
@@ -1906,17 +1906,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj.requires:
 
@@ -1930,17 +1930,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_ag/bta_ag_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj.requires:
 
@@ -1954,17 +1954,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj.requires:
 
@@ -1978,17 +1978,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_ac
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj.requires:
 
@@ -2002,17 +2002,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_ap
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_at.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj.requires:
 
@@ -2026,17 +2026,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj.requires:
 
@@ -2050,17 +2050,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cm
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj.requires:
 
@@ -2074,17 +2074,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_ma
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj.requires:
 
@@ -2098,17 +2098,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rf
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj.requires:
 
@@ -2122,17 +2122,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sc
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj.requires:
 
@@ -2146,17 +2146,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sd
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj.requires:
 
@@ -2170,17 +2170,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj.provides
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj.requires:
 
@@ -2194,17 +2194,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj.requires:
 
@@ -2218,17 +2218,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sdp/bta_sdp_cfg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj.requires:
 
@@ -2242,17 +2242,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_conn.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj.requires:
 
@@ -2266,17 +2266,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/bta_sys_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj.requires:
 
@@ -2290,17 +2290,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/bta/sys/utl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj.requires:
 
@@ -2314,17 +2314,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj.provides.bui
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_ble_storage.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj.requires:
 
@@ -2338,17 +2338,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_config.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj.requires:
 
@@ -2362,17 +2362,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dev.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj.requires:
 
@@ -2386,17 +2386,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_dm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj.requires:
 
@@ -2410,17 +2410,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj.provides
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj.requires:
 
@@ -2434,17 +2434,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_profile_queue.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj.requires:
 
@@ -2458,17 +2458,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.o
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj.requires:
 
@@ -2482,17 +2482,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj.requires:
 
@@ -2506,17 +2506,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj.provides
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_storage.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj.requires:
 
@@ -2530,17 +2530,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/core/btc_util.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj.requires:
 
@@ -2554,17 +2554,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_prf.c.obj.requires:
 
@@ -2578,17 +2578,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_protocol.c.obj.requires:
 
@@ -2602,17 +2602,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/esp/blufi/blufi_pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj.requires:
 
@@ -2626,17 +2626,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj.requires:
 
@@ -2650,17 +2650,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj.requires:
 
@@ -2674,17 +2674,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj.requires:
 
@@ -2698,17 +2698,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj.requires:
 
@@ -2722,17 +2722,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/a2dp/btc_av.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj.requires:
 
@@ -2746,17 +2746,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/btc_avrc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj.requires:
 
@@ -2770,17 +2770,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj.requires:
 
@@ -2794,17 +2794,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj.requires:
 
@@ -2818,17 +2818,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_c
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj.requires:
 
@@ -2842,17 +2842,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_a
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj.requires:
 
@@ -2866,17 +2866,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj.requires:
 
@@ -2890,17 +2890,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj.requires:
 
@@ -2914,17 +2914,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bl
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj.requires:
 
@@ -2938,17 +2938,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj.requires:
 
@@ -2962,17 +2962,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj.requires:
 
@@ -2986,17 +2986,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj.requires:
 
@@ -3010,17 +3010,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gattc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj.requires:
 
@@ -3034,17 +3034,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj.requires:
 
@@ -3058,17 +3058,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj.requires:
 
@@ -3082,17 +3082,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/device/bdaddr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/device/bdaddr.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/bdaddr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/bdaddr.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/device/bdaddr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/bdaddr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/device/bdaddr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/bdaddr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj.requires:
 
@@ -3106,17 +3106,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/device/controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/device/controller.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/controller.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/controller.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/device/controller.c > CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/controller.c > CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/device/controller.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/controller.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj.requires:
 
@@ -3130,17 +3130,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/device/interop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/device/interop.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/interop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/interop.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/device/interop.c > CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/interop.c > CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/device/interop.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/device/interop.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj.requires:
 
@@ -3154,17 +3154,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj.provides.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/alloc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/alloc.c.obj.requires:
 
@@ -3178,17 +3178,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/allo
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.c.obj.requires:
 
@@ -3202,17 +3202,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bita
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitalloc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitalloc.c.obj.requires:
 
@@ -3226,17 +3226,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bita
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bitstream-decode.c.obj.requires:
 
@@ -3250,17 +3250,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/bits
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-oina.c.obj.requires:
 
@@ -3274,17 +3274,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/deco
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-private.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-private.c.obj.requires:
 
@@ -3298,17 +3298,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/deco
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj.requires:
 
@@ -3322,17 +3322,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/deco
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/dequant.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj.requires:
 
@@ -3346,17 +3346,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequ
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj.requires:
 
@@ -3370,17 +3370,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/fram
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/framing.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj.requires:
 
@@ -3394,17 +3394,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/fram
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj.requires:
 
@@ -3418,17 +3418,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_c
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj.requires:
 
@@ -3442,17 +3442,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synt
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj.requires:
 
@@ -3466,17 +3466,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synt
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj.requires:
 
@@ -3490,17 +3490,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synt
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj.requires:
 
@@ -3514,17 +3514,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj.requires:
 
@@ -3538,17 +3538,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj.requires:
 
@@ -3562,17 +3562,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj.requires:
 
@@ -3586,17 +3586,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj.requires:
 
@@ -3610,17 +3610,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj.requires:
 
@@ -3634,17 +3634,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj.requires:
 
@@ -3658,17 +3658,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj.requires:
 
@@ -3682,17 +3682,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj.requires:
 
@@ -3706,17 +3706,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj.requires:
 
@@ -3730,17 +3730,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj.requires:
 
@@ -3754,17 +3754,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj.provides.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_layer.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj.requires:
 
@@ -3778,17 +3778,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_factory.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj.requires:
 
@@ -3802,17 +3802,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/hci_packet_parser.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj.requires:
 
@@ -3826,17 +3826,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c > CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/hci/packet_fragmenter.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj.requires:
 
@@ -3850,17 +3850,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_init.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_init.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_init.c > CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_init.c > CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_init.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_init.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj.requires:
 
@@ -3874,17 +3874,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/main/bte_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/main/bte_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj.requires:
 
@@ -3898,17 +3898,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj.requires:
 
@@ -3922,17 +3922,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/a2dp/a2d_sbc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj.requires:
 
@@ -3946,17 +3946,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj.requires:
 
@@ -3970,17 +3970,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_ccb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj.requires:
 
@@ -3994,17 +3994,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_l2c.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj.requires:
 
@@ -4018,17 +4018,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj.requires:
 
@@ -4042,17 +4042,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avct/avct_lcb_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj.requires:
 
@@ -4066,17 +4066,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ad.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj.requires:
 
@@ -4090,17 +4090,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj.requires:
 
@@ -4114,17 +4114,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj.requires:
 
@@ -4138,17 +4138,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_ccb_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj.requires:
 
@@ -4162,17 +4162,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_l2c.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj.requires:
 
@@ -4186,17 +4186,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_msg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj.requires:
 
@@ -4210,17 +4210,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj.requires:
 
@@ -4234,17 +4234,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avdt/avdt_scb_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj.requires:
 
@@ -4258,17 +4258,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj.requires:
 
@@ -4282,17 +4282,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_ct.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj.requires:
 
@@ -4306,17 +4306,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_bld_tg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj.requires:
 
@@ -4330,17 +4330,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_opt.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj.requires:
 
@@ -4354,17 +4354,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_ct.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj.requires:
 
@@ -4378,17 +4378,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_pars_tg.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj.requires:
 
@@ -4402,17 +4402,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_sdp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj.requires:
 
@@ -4426,17 +4426,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/avrc/avrc_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj.requires:
 
@@ -4450,17 +4450,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_acl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj.requires:
 
@@ -4474,17 +4474,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj.requires:
 
@@ -4498,17 +4498,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_addr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj.requires:
 
@@ -4522,17 +4522,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_adv_filter.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj.requires:
 
@@ -4546,17 +4546,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_batchscan.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj.requires:
 
@@ -4570,17 +4570,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_bgconn.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj.requires:
 
@@ -4594,17 +4594,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_cont_energy.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj.requires:
 
@@ -4618,17 +4618,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_gap.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj.requires:
 
@@ -4642,17 +4642,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_multi_adv.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj.requires:
 
@@ -4666,17 +4666,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_ble_privacy.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj.requires:
 
@@ -4690,17 +4690,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.ob
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_dev.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj.requires:
 
@@ -4714,17 +4714,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_devctl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj.requires:
 
@@ -4738,17 +4738,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_inq.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj.requires:
 
@@ -4762,17 +4762,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj.requires:
 
@@ -4786,17 +4786,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_pm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj.requires:
 
@@ -4810,17 +4810,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sco.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj.requires:
 
@@ -4834,17 +4834,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btm/btm_sec.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj.requires:
 
@@ -4858,17 +4858,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_hcif.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj.requires:
 
@@ -4882,17 +4882,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_init.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj.requires:
 
@@ -4906,17 +4906,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/btu/btu_task.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj.requires:
 
@@ -4930,17 +4930,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj.requires:
 
@@ -4954,17 +4954,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj.requires:
 
@@ -4978,17 +4978,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_conn.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj.requires:
 
@@ -5002,17 +5002,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gap/gap_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj.requires:
 
@@ -5026,17 +5026,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/att_protocol.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj.requires:
 
@@ -5050,17 +5050,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj.requires:
 
@@ -5074,17 +5074,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_attr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj.requires:
 
@@ -5098,17 +5098,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_auth.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj.requires:
 
@@ -5122,17 +5122,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_cl.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj.requires:
 
@@ -5146,17 +5146,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_db.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj.requires:
 
@@ -5170,17 +5170,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj.requires:
 
@@ -5194,17 +5194,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_sr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj.requires:
 
@@ -5218,17 +5218,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/gatt/gatt_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj.requires:
 
@@ -5242,17 +5242,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hciblecmds.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj.requires:
 
@@ -5266,17 +5266,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/hcic/hcicmds.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj.requires:
 
@@ -5290,17 +5290,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj.requires:
 
@@ -5314,17 +5314,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ble.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj.requires:
 
@@ -5338,17 +5338,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_csm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj.requires:
 
@@ -5362,17 +5362,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_fcr.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj.requires:
 
@@ -5386,17 +5386,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_link.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj.requires:
 
@@ -5410,17 +5410,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj.requires:
 
@@ -5434,17 +5434,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_ucd.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj.requires:
 
@@ -5458,17 +5458,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2c_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj.requires:
 
@@ -5482,17 +5482,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/l2cap/l2cap_client.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj.requires:
 
@@ -5506,17 +5506,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj.requires:
 
@@ -5530,17 +5530,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_rfc.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj.requires:
 
@@ -5554,17 +5554,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/port_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj.requires:
 
@@ -5578,17 +5578,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj.requires:
 
@@ -5602,17 +5602,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.ob
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj.requires:
 
@@ -5626,17 +5626,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_fsm.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj.requires:
 
@@ -5650,17 +5650,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.ob
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_port_if.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj.requires:
 
@@ -5674,17 +5674,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_ts_frames.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj.requires:
 
@@ -5698,17 +5698,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.o
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/rfcomm/rfc_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj.requires:
 
@@ -5722,17 +5722,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj.requires:
 
@@ -5746,17 +5746,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_db.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj.requires:
 
@@ -5770,17 +5770,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj.provide
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_discovery.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj.requires:
 
@@ -5794,17 +5794,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj.requires:
 
@@ -5818,17 +5818,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_server.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj.requires:
 
@@ -5842,17 +5842,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj.pro
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/sdp/sdp_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj.requires:
 
@@ -5866,17 +5866,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj.prov
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/aes.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj.requires:
 
@@ -5890,17 +5890,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj.provides.b
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_curvepara.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj.requires:
 
@@ -5914,17 +5914,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.ob
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_ecc_pp.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj.requires:
 
@@ -5938,17 +5938,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj.p
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/p_256_multprecision.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj.requires:
 
@@ -5962,17 +5962,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_act.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj.requires:
 
@@ -5986,17 +5986,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_api.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj.requires:
 
@@ -6010,17 +6010,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_br_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj.requires:
 
@@ -6034,17 +6034,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj.pr
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_cmac.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj.requires:
 
@@ -6058,17 +6058,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_keys.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj.requires:
 
@@ -6082,17 +6082,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_l2c.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj.requires:
 
@@ -6106,17 +6106,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj.provid
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_main.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj.requires:
 
@@ -6130,17 +6130,17 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj.provi
 
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj: esp-idf/bt/CMakeFiles/__idf_bt.dir/flags.make
-esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj: /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj   -c /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c
+esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj: /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj   -c /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c > CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.i
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/esp-idf/components/bt/host/bluedroid/stack/smp/smp_utils.c -o CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.s
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj.requires:
 
@@ -6669,9 +6669,9 @@ esp-idf/bt/libbt.a: esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/
 esp-idf/bt/libbt.a: esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj
 esp-idf/bt/libbt.a: esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make
 esp-idf/bt/libbt.a: esp-idf/bt/CMakeFiles/__idf_bt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Linking CXX static library libbt.a"
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_bt.dir/cmake_clean_target.cmake
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_bt.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Linking CXX static library libbt.a"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_bt.dir/cmake_clean_target.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_bt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/bt/CMakeFiles/__idf_bt.dir/build: esp-idf/bt/libbt.a
@@ -6936,10 +6936,10 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/requires: esp-idf/bt/CMakeFiles/__idf_bt.dir/
 .PHONY : esp-idf/bt/CMakeFiles/__idf_bt.dir/requires
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/bt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_bt.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_bt.dir/cmake_clean.cmake
 .PHONY : esp-idf/bt/CMakeFiles/__idf_bt.dir/clean
 
 esp-idf/bt/CMakeFiles/__idf_bt.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/bt /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/bt /home/pi/ble_ibeacon/build/esp-idf/bt/CMakeFiles/__idf_bt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/bt /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt /home/pi/IoTProject/ble_ibeacon/build/esp-idf/bt/CMakeFiles/__idf_bt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/bt/CMakeFiles/__idf_bt.dir/depend
 

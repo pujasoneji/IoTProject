@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "4.19.66-v7+")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "armv7l")
 
-include("/home/pi/esp-idf/tools/cmake/toolchain-esp32.cmake")
+include("/home/pi/IoTProject/esp-idf/tools/cmake/toolchain-esp32.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

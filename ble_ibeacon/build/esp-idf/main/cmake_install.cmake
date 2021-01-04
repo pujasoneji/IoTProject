@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/ble_ibeacon/main
+# Install script for directory: /home/pi/IoTProject/ble_ibeacon/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

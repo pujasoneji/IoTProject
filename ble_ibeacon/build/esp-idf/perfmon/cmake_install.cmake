@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/esp-idf/components/perfmon
+# Install script for directory: /home/pi/IoTProject/esp-idf/components/perfmon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

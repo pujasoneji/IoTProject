@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for encrypted-flash.
 
@@ -56,7 +56,7 @@ include CMakeFiles/encrypted-flash.dir/progress.make
 CMakeFiles/encrypted-flash:
 	/usr/bin/cmake -E echo "Error: The target encrypted-flash requires"
 	/usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	/usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/pi/esp-idf/tools/cmake/scripts/fail.cmake
+	/usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/pi/IoTProject/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-flash: CMakeFiles/encrypted-flash
 encrypted-flash: CMakeFiles/encrypted-flash.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/encrypted-flash.dir/clean:
 .PHONY : CMakeFiles/encrypted-flash.dir/clean
 
 CMakeFiles/encrypted-flash.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/ble_ibeacon /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/CMakeFiles/encrypted-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles/encrypted-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/encrypted-flash.dir/depend
 

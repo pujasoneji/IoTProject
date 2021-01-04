@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build/bootloader
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build/bootloader
 
 # Utility rule file for encrypted-app-flash.
 
@@ -56,7 +56,7 @@ include CMakeFiles/encrypted-app-flash.dir/progress.make
 CMakeFiles/encrypted-app-flash:
 	/usr/bin/cmake -E echo "Error: The target encrypted-app-flash requires"
 	/usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	/usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/pi/esp-idf/tools/cmake/scripts/fail.cmake
+	/usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/pi/IoTProject/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-app-flash: CMakeFiles/encrypted-app-flash
 encrypted-app-flash: CMakeFiles/encrypted-app-flash.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/encrypted-app-flash.dir/clean:
 .PHONY : CMakeFiles/encrypted-app-flash.dir/clean
 
 CMakeFiles/encrypted-app-flash.dir/depend:
-	cd /home/pi/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/esp-idf/components/bootloader/subproject /home/pi/esp-idf/components/bootloader/subproject /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/encrypted-app-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/esp-idf/components/bootloader/subproject /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/encrypted-app-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/encrypted-app-flash.dir/depend
 

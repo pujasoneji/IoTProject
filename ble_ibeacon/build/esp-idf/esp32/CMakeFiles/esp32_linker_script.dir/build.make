@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for esp32_linker_script.
 
@@ -57,8 +57,8 @@ esp-idf/esp32/CMakeFiles/esp32_linker_script: esp-idf/esp32/esp32_out.ld
 
 
 esp-idf/esp32/esp32_out.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating linker script..."
-	cd /home/pi/ble_ibeacon/build/esp-idf/esp32 && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -C -P -x c -E -o esp32_out.ld -I /home/pi/ble_ibeacon/build/config /home/pi/esp-idf/components/esp32/ld/esp32.ld
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating linker script..."
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32 && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -C -P -x c -E -o esp32_out.ld -I /home/pi/IoTProject/ble_ibeacon/build/config /home/pi/IoTProject/esp-idf/components/esp32/ld/esp32.ld
 
 esp32_linker_script: esp-idf/esp32/CMakeFiles/esp32_linker_script
 esp32_linker_script: esp-idf/esp32/esp32_out.ld
@@ -72,10 +72,10 @@ esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build: esp32_linker_script
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build
 
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/esp32 && $(CMAKE_COMMAND) -P CMakeFiles/esp32_linker_script.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32 && $(CMAKE_COMMAND) -P CMakeFiles/esp32_linker_script.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/clean
 
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/esp32 /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/esp32 /home/pi/ble_ibeacon/build/esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/esp32 /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32 /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/depend
 

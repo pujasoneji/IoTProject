@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/esp-idf/components/esp_common/include/esp_assert.h
+/home/pi/IoTProject/esp-idf/components/esp_common/include/esp_assert.h
 assert.h
-/home/pi/esp-idf/components/esp_common/include/assert.h
+/home/pi/IoTProject/esp-idf/components/esp_common/include/assert.h
 
-/home/pi/esp-idf/components/esp_common/include/esp_bit_defs.h
+/home/pi/IoTProject/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-/home/pi/esp-idf/components/esp_common/include/esp_compiler.h
+/home/pi/IoTProject/esp-idf/components/esp_common/include/esp_compiler.h
 
-/home/pi/esp-idf/components/esp_common/include/esp_err.h
+/home/pi/IoTProject/esp-idf/components/esp_common/include/esp_err.h
 stdint.h
 -
 stdio.h
@@ -22,21 +22,21 @@ stdio.h
 assert.h
 -
 
-/home/pi/esp-idf/components/esp_local_ctrl/include/esp_local_ctrl.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/include/esp_local_ctrl.h
 protocomm.h
 -
 
-/home/pi/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c
 esp_local_ctrl.pb-c.h
-/home/pi/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.h
 
-/home/pi/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.h
 protobuf-c/protobuf-c.h
 -
 constants.pb-c.h
-/home/pi/esp-idf/components/esp_local_ctrl/proto-c/constants.pb-c.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/proto-c/constants.pb-c.h
 
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.c
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.c
 stdio.h
 -
 string.h
@@ -52,11 +52,11 @@ protocomm_security0.h
 esp_local_ctrl.h
 -
 esp_local_ctrl_priv.h
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
 esp_local_ctrl.pb-c.h
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.pb-c.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.pb-c.h
 
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c
 stdio.h
 -
 string.h
@@ -66,13 +66,13 @@ esp_err.h
 esp_log.h
 -
 esp_local_ctrl.h
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.h
 esp_local_ctrl_priv.h
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
 esp_local_ctrl.pb-c.h
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.pb-c.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.pb-c.h
 
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
 esp_err.h
 -
 protocomm.h
@@ -80,7 +80,7 @@ protocomm.h
 esp_local_ctrl.h
 -
 
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_transport_ble.c
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_transport_ble.c
 stdio.h
 -
 string.h
@@ -94,9 +94,9 @@ protocomm_ble.h
 esp_local_ctrl.h
 -
 esp_local_ctrl_priv.h
-/home/pi/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
+/home/pi/IoTProject/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_priv.h
 
-/home/pi/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
+/home/pi/IoTProject/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
@@ -104,43 +104,43 @@ stdbool.h
 stdlib.h
 -
 sdkconfig.h
-/home/pi/esp-idf/components/esp_rom/include/esp32/rom/sdkconfig.h
+/home/pi/IoTProject/esp-idf/components/esp_rom/include/esp32/rom/sdkconfig.h
 soc/soc.h
-/home/pi/esp-idf/components/esp_rom/include/esp32/rom/soc/soc.h
+/home/pi/IoTProject/esp-idf/components/esp_rom/include/esp32/rom/soc/soc.h
 
-/home/pi/esp-idf/components/esp_rom/include/esp32s2beta/rom/ets_sys.h
+/home/pi/IoTProject/esp-idf/components/esp_rom/include/esp32s2beta/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 soc/soc.h
-/home/pi/esp-idf/components/esp_rom/include/esp32s2beta/rom/soc/soc.h
+/home/pi/IoTProject/esp-idf/components/esp_rom/include/esp32s2beta/rom/soc/soc.h
 
-/home/pi/esp-idf/components/log/include/esp_log.h
+/home/pi/IoTProject/esp-idf/components/log/include/esp_log.h
 stdint.h
 -
 stdarg.h
 -
 sdkconfig.h
-/home/pi/esp-idf/components/log/include/sdkconfig.h
+/home/pi/IoTProject/esp-idf/components/log/include/sdkconfig.h
 esp32/rom/ets_sys.h
-/home/pi/esp-idf/components/log/include/esp32/rom/ets_sys.h
+/home/pi/IoTProject/esp-idf/components/log/include/esp32/rom/ets_sys.h
 esp32s2beta/rom/ets_sys.h
-/home/pi/esp-idf/components/log/include/esp32s2beta/rom/ets_sys.h
+/home/pi/IoTProject/esp-idf/components/log/include/esp32s2beta/rom/ets_sys.h
 esp_log_internal.h
-/home/pi/esp-idf/components/log/include/esp_log_internal.h
+/home/pi/IoTProject/esp-idf/components/log/include/esp_log_internal.h
 
-/home/pi/esp-idf/components/log/include/esp_log_internal.h
+/home/pi/IoTProject/esp-idf/components/log/include/esp_log_internal.h
 
-/home/pi/esp-idf/components/newlib/platform_include/assert.h
+/home/pi/IoTProject/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-/home/pi/esp-idf/components/newlib/platform_include/esp_compiler.h
+/home/pi/IoTProject/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-/home/pi/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
+/home/pi/IoTProject/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
 assert.h
 -
 limits.h
@@ -150,33 +150,33 @@ stddef.h
 stdint.h
 -
 
-/home/pi/esp-idf/components/protocomm/include/common/protocomm.h
+/home/pi/IoTProject/esp-idf/components/protocomm/include/common/protocomm.h
 protocomm_security.h
 -
 esp_err.h
 -
 
-/home/pi/esp-idf/components/protocomm/include/security/protocomm_security.h
+/home/pi/IoTProject/esp-idf/components/protocomm/include/security/protocomm_security.h
 esp_err.h
 -
 
-/home/pi/esp-idf/components/protocomm/include/security/protocomm_security0.h
+/home/pi/IoTProject/esp-idf/components/protocomm/include/security/protocomm_security0.h
 protocomm_security.h
 -
 
-/home/pi/esp-idf/components/protocomm/include/transports/protocomm_ble.h
+/home/pi/IoTProject/esp-idf/components/protocomm/include/transports/protocomm_ble.h
 protocomm.h
 -
 
-/home/pi/esp-idf/components/protocomm/proto-c/constants.pb-c.h
+/home/pi/IoTProject/esp-idf/components/protocomm/proto-c/constants.pb-c.h
 protobuf-c/protobuf-c.h
 -
 
-/home/pi/esp-idf/components/soc/esp32/include/soc/soc.h
+/home/pi/IoTProject/esp-idf/components/soc/esp32/include/soc/soc.h
 stdint.h
 -
 esp_assert.h
-/home/pi/esp-idf/components/soc/esp32/include/soc/esp_assert.h
+/home/pi/IoTProject/esp-idf/components/soc/esp32/include/soc/esp_assert.h
 esp_bit_defs.h
 -
 

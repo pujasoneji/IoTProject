@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/esp-idf/components/sdmmc
+# Install script for directory: /home/pi/IoTProject/esp-idf/components/sdmmc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

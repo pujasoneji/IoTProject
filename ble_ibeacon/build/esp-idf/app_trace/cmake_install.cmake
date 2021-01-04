@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/esp-idf/components/app_trace
+# Install script for directory: /home/pi/IoTProject/esp-idf/components/app_trace
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

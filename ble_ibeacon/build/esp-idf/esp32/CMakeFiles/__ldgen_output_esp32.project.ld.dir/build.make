@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for __ldgen_output_esp32.project.ld.
 
@@ -56,23 +56,23 @@ include esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/progress.ma
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld: esp-idf/esp32/ld/esp32.project.ld
 
 
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp32/ld/esp32.project.ld.in
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/xtensa/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp_ringbuf/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/spi_flash/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/espcoredump/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp32/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp32/ld/esp32_fragments.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/soc/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp_event/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp_wifi/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/lwip/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/log/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/heap/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/freertos/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/newlib/newlib.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/app_trace/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/esp-idf/components/esp_gdbstub/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp32/ld/esp32.project.ld.in
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/xtensa/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp_ringbuf/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/spi_flash/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/espcoredump/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp32/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp32/ld/esp32_fragments.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/soc/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp_event/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp_wifi/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/lwip/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/log/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/heap/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/freertos/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/newlib/newlib.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/app_trace/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/esp-idf/components/esp_gdbstub/linker.lf
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/xtensa/libxtensa.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/esp_ringbuf/libesp_ringbuf.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/app_update/libapp_update.a
@@ -135,9 +135,9 @@ esp-idf/esp32/ld/esp32.project.ld: esp-idf/ulp/libulp.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/unity/libunity.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/wifi_provisioning/libwifi_provisioning.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/main/libmain.a
-esp-idf/esp32/ld/esp32.project.ld: /home/pi/ble_ibeacon/sdkconfig
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/esp32.project.ld"
-	cd /home/pi/ble_ibeacon/build/esp-idf/esp32 && /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/ldgen/ldgen.py --config /home/pi/ble_ibeacon/sdkconfig --fragments /home/pi/esp-idf/components/xtensa/linker.lf	/home/pi/esp-idf/components/esp_ringbuf/linker.lf	/home/pi/esp-idf/components/spi_flash/linker.lf	/home/pi/esp-idf/components/espcoredump/linker.lf	/home/pi/esp-idf/components/esp32/linker.lf	/home/pi/esp-idf/components/esp32/ld/esp32_fragments.lf	/home/pi/esp-idf/components/soc/linker.lf	/home/pi/esp-idf/components/esp_event/linker.lf	/home/pi/esp-idf/components/esp_wifi/linker.lf	/home/pi/esp-idf/components/lwip/linker.lf	/home/pi/esp-idf/components/log/linker.lf	/home/pi/esp-idf/components/heap/linker.lf	/home/pi/esp-idf/components/freertos/linker.lf	/home/pi/esp-idf/components/newlib/newlib.lf	/home/pi/esp-idf/components/app_trace/linker.lf	/home/pi/esp-idf/components/esp_gdbstub/linker.lf --input /home/pi/esp-idf/components/esp32/ld/esp32.project.ld.in --output /home/pi/ble_ibeacon/build/esp-idf/esp32/ld/esp32.project.ld --kconfig /home/pi/esp-idf/Kconfig --env-file /home/pi/ble_ibeacon/build/config.env --libraries-file /home/pi/ble_ibeacon/build/ldgen_libraries --objdump /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump
+esp-idf/esp32/ld/esp32.project.ld: /home/pi/IoTProject/ble_ibeacon/sdkconfig
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/esp32.project.ld"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32 && /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/ldgen/ldgen.py --config /home/pi/IoTProject/ble_ibeacon/sdkconfig --fragments /home/pi/IoTProject/esp-idf/components/xtensa/linker.lf	/home/pi/IoTProject/esp-idf/components/esp_ringbuf/linker.lf	/home/pi/IoTProject/esp-idf/components/spi_flash/linker.lf	/home/pi/IoTProject/esp-idf/components/espcoredump/linker.lf	/home/pi/IoTProject/esp-idf/components/esp32/linker.lf	/home/pi/IoTProject/esp-idf/components/esp32/ld/esp32_fragments.lf	/home/pi/IoTProject/esp-idf/components/soc/linker.lf	/home/pi/IoTProject/esp-idf/components/esp_event/linker.lf	/home/pi/IoTProject/esp-idf/components/esp_wifi/linker.lf	/home/pi/IoTProject/esp-idf/components/lwip/linker.lf	/home/pi/IoTProject/esp-idf/components/log/linker.lf	/home/pi/IoTProject/esp-idf/components/heap/linker.lf	/home/pi/IoTProject/esp-idf/components/freertos/linker.lf	/home/pi/IoTProject/esp-idf/components/newlib/newlib.lf	/home/pi/IoTProject/esp-idf/components/app_trace/linker.lf	/home/pi/IoTProject/esp-idf/components/esp_gdbstub/linker.lf --input /home/pi/IoTProject/esp-idf/components/esp32/ld/esp32.project.ld.in --output /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32/ld/esp32.project.ld --kconfig /home/pi/IoTProject/esp-idf/Kconfig --env-file /home/pi/IoTProject/ble_ibeacon/build/config.env --libraries-file /home/pi/IoTProject/ble_ibeacon/build/ldgen_libraries --objdump /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump
 
 __ldgen_output_esp32.project.ld: esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld
 __ldgen_output_esp32.project.ld: esp-idf/esp32/ld/esp32.project.ld
@@ -151,10 +151,10 @@ esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build: __ldgen_outp
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build
 
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/esp32 && $(CMAKE_COMMAND) -P CMakeFiles/__ldgen_output_esp32.project.ld.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32 && $(CMAKE_COMMAND) -P CMakeFiles/__ldgen_output_esp32.project.ld.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean
 
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/esp32 /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/esp32 /home/pi/ble_ibeacon/build/esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/esp32 /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32 /home/pi/IoTProject/ble_ibeacon/build/esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend
 

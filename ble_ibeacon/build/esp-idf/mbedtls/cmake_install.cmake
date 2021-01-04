@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/esp-idf/components/mbedtls
+# Install script for directory: /home/pi/IoTProject/esp-idf/components/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("/home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 

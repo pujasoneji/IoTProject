@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for menuconfig.
 
@@ -54,11 +54,11 @@ CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
 include CMakeFiles/menuconfig.dir/progress.make
 
 CMakeFiles/menuconfig:
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/pi/ble_ibeacon/build/config.env
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/pi/esp-idf/Kconfig --sdkconfig-rename /home/pi/esp-idf/sdkconfig.rename --config /home/pi/ble_ibeacon/sdkconfig --defaults /home/pi/ble_ibeacon/sdkconfig.defaults --env-file /home/pi/ble_ibeacon/build/config.env --env IDF_TARGET=esp32 --dont-write-deprecated --output config /home/pi/ble_ibeacon/sdkconfig
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/check_term.py
-	/usr/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/home/pi/ble_ibeacon/build/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/home/pi/ble_ibeacon/build/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=/home/pi/ble_ibeacon/sdkconfig IDF_TARGET=esp32 /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/kconfig_new/menuconfig.py /home/pi/esp-idf/Kconfig
-	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/pi/esp-idf/Kconfig --sdkconfig-rename /home/pi/esp-idf/sdkconfig.rename --config /home/pi/ble_ibeacon/sdkconfig --defaults /home/pi/ble_ibeacon/sdkconfig.defaults --env-file /home/pi/ble_ibeacon/build/config.env --env IDF_TARGET=esp32 --output config /home/pi/ble_ibeacon/sdkconfig
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/pi/IoTProject/ble_ibeacon/build/config.env
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/pi/IoTProject/esp-idf/Kconfig --sdkconfig-rename /home/pi/IoTProject/esp-idf/sdkconfig.rename --config /home/pi/IoTProject/ble_ibeacon/sdkconfig --defaults /home/pi/IoTProject/ble_ibeacon/sdkconfig.defaults --env-file /home/pi/IoTProject/ble_ibeacon/build/config.env --env IDF_TARGET=esp32 --dont-write-deprecated --output config /home/pi/IoTProject/ble_ibeacon/sdkconfig
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/check_term.py
+	/usr/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/home/pi/IoTProject/ble_ibeacon/build/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/home/pi/IoTProject/ble_ibeacon/build/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=/home/pi/IoTProject/ble_ibeacon/sdkconfig IDF_TARGET=esp32 /home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/kconfig_new/menuconfig.py /home/pi/IoTProject/esp-idf/Kconfig
+	/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/IoTProject/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/pi/IoTProject/esp-idf/Kconfig --sdkconfig-rename /home/pi/IoTProject/esp-idf/sdkconfig.rename --config /home/pi/IoTProject/ble_ibeacon/sdkconfig --defaults /home/pi/IoTProject/ble_ibeacon/sdkconfig.defaults --env-file /home/pi/IoTProject/ble_ibeacon/build/config.env --env IDF_TARGET=esp32 --output config /home/pi/IoTProject/ble_ibeacon/sdkconfig
 
 menuconfig: CMakeFiles/menuconfig
 menuconfig: CMakeFiles/menuconfig.dir/build.make
@@ -75,6 +75,6 @@ CMakeFiles/menuconfig.dir/clean:
 .PHONY : CMakeFiles/menuconfig.dir/clean
 
 CMakeFiles/menuconfig.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/ble_ibeacon /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/CMakeFiles/menuconfig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/CMakeFiles/menuconfig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/menuconfig.dir/depend
 

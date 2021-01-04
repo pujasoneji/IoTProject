@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Include any dependencies generated for this target.
 include esp-idf/main/CMakeFiles/__idf_main.dir/depend.make
@@ -59,16 +59,16 @@ include esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 
 esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj: ../main/esp_ibeacon_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj   -c /home/pi/ble_ibeacon/main/esp_ibeacon_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj   -c /home/pi/IoTProject/ble_ibeacon/main/esp_ibeacon_api.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/ble_ibeacon/main/esp_ibeacon_api.c > CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/ble_ibeacon/main/esp_ibeacon_api.c > CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.i
 
 esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/ble_ibeacon/main/esp_ibeacon_api.c -o CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/ble_ibeacon/main/esp_ibeacon_api.c -o CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.s
 
 esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj.requires:
 
@@ -83,16 +83,16 @@ esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj.provides.build: esp
 
 esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj: ../main/ibeacon_demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj   -c /home/pi/ble_ibeacon/main/ibeacon_demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj   -c /home/pi/IoTProject/ble_ibeacon/main/ibeacon_demo.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ibeacon_demo.c.i"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/ble_ibeacon/main/ibeacon_demo.c > CMakeFiles/__idf_main.dir/ibeacon_demo.c.i
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/IoTProject/ble_ibeacon/main/ibeacon_demo.c > CMakeFiles/__idf_main.dir/ibeacon_demo.c.i
 
 esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ibeacon_demo.c.s"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/ble_ibeacon/main/ibeacon_demo.c -o CMakeFiles/__idf_main.dir/ibeacon_demo.c.s
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/IoTProject/ble_ibeacon/main/ibeacon_demo.c -o CMakeFiles/__idf_main.dir/ibeacon_demo.c.s
 
 esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj.requires:
 
@@ -117,9 +117,9 @@ esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ibeacon_demo.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmain.a"
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/IoTProject/ble_ibeacon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmain.a"
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/main/CMakeFiles/__idf_main.dir/build: esp-idf/main/libmain.a
@@ -132,10 +132,10 @@ esp-idf/main/CMakeFiles/__idf_main.dir/requires: esp-idf/main/CMakeFiles/__idf_m
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/requires
 
 esp-idf/main/CMakeFiles/__idf_main.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean.cmake
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/clean
 
 esp-idf/main/CMakeFiles/__idf_main.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/ble_ibeacon/main /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/main /home/pi/ble_ibeacon/build/esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/ble_ibeacon/main /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main /home/pi/IoTProject/ble_ibeacon/build/esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/depend
 

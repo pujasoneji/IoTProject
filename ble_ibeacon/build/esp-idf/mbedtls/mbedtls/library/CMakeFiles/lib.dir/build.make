@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/ble_ibeacon
+CMAKE_SOURCE_DIR = /home/pi/IoTProject/ble_ibeacon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/ble_ibeacon/build
+CMAKE_BINARY_DIR = /home/pi/IoTProject/ble_ibeacon/build
 
 # Utility rule file for lib.
 
@@ -69,10 +69,10 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build: lib
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean:
-	cd /home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd /home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/depend:
-	cd /home/pi/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ble_ibeacon /home/pi/esp-idf/components/mbedtls/mbedtls/library /home/pi/ble_ibeacon/build /home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/library /home/pi/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/IoTProject/ble_ibeacon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/IoTProject/ble_ibeacon /home/pi/IoTProject/esp-idf/components/mbedtls/mbedtls/library /home/pi/IoTProject/ble_ibeacon/build /home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/library /home/pi/IoTProject/ble_ibeacon/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/depend
 

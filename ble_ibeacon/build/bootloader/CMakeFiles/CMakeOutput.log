@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/3.7.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/3.7.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32-elf-gcc (crosstool-NG esp-2020r3) 8.4.0
@@ -33,33 +33,33 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3957e/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3957e.dir/build.make CMakeFiles/cmTC_3957e.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3957e.dir/testCCompiler.c.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_3957e.dir/testCCompiler.c.obj   -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3957e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3957e.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_3957e.dir/testCCompiler.c.obj  -o cmTC_3957e 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_81481/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_81481.dir/build.make CMakeFiles/cmTC_81481.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81481.dir/testCCompiler.c.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_81481.dir/testCCompiler.c.obj   -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_81481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81481.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_81481.dir/testCCompiler.c.obj  -o cmTC_81481 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4fe0/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e4fe0.dir/build.make CMakeFiles/cmTC_e4fe0.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e4fe0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4fe0.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj  -o cmTC_e4fe0  
+Run Build Command:"/usr/bin/make" "cmTC_dae8c/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dae8c.dir/build.make CMakeFiles/cmTC_dae8c.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_dae8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dae8c.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj  -o cmTC_dae8c  
 Using built-in specs.
 COLLECT_GCC=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 COLLECT_LTO_WRAPPER=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper
@@ -69,26 +69,26 @@ Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
 COMPILER_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_e4fe0'
- /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_e4fe0 /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_e4fe0'
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_dae8c'
+ /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_dae8c /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_dae8c'
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e4fe0/fast"]
-  ignore line: [make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e4fe0.dir/build.make CMakeFiles/cmTC_e4fe0.dir/build]
-  ignore line: [make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e4fe0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4fe0.dir/link.txt --verbose=1]
-  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj  -o cmTC_e4fe0  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dae8c/fast"]
+  ignore line: [make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dae8c.dir/build.make CMakeFiles/cmTC_dae8c.dir/build]
+  ignore line: [make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_dae8c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dae8c.dir/link.txt --verbose=1]
+  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj  -o cmTC_dae8c  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper]
@@ -98,18 +98,18 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.4.0 (crosstool-NG esp-2020r3) ]
   ignore line: [COMPILER_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_e4fe0']
-  link line: [ /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_e4fe0 /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_dae8c']
+  link line: [ /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_dae8c /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e4fe0] ==> ignore
+    arg [cmTC_dae8c] ==> ignore
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o] ==> ignore
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o] ==> ignore
     arg [-L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> dir [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0]
     arg [-L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_e4fe0.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_dae8c.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
@@ -130,19 +130,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_168d5/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_168d5.dir/build.make CMakeFiles/cmTC_168d5.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_168d5.dir/feature_tests.c.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -std=c11 -o CMakeFiles/cmTC_168d5.dir/feature_tests.c.obj   -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.c
-Linking C executable cmTC_168d5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_168d5.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_168d5.dir/feature_tests.c.obj  -o cmTC_168d5 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7ccb5/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7ccb5.dir/build.make CMakeFiles/cmTC_7ccb5.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ccb5.dir/feature_tests.c.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -std=c11 -o CMakeFiles/cmTC_7ccb5.dir/feature_tests.c.obj   -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7ccb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ccb5.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_7ccb5.dir/feature_tests.c.obj  -o cmTC_7ccb5 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,19 +152,19 @@ make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMa
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_194da/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_194da.dir/build.make CMakeFiles/cmTC_194da.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_194da.dir/feature_tests.c.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -std=c99 -o CMakeFiles/cmTC_194da.dir/feature_tests.c.obj   -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.c
-Linking C executable cmTC_194da
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_194da.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_194da.dir/feature_tests.c.obj  -o cmTC_194da 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_34c48/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_34c48.dir/build.make CMakeFiles/cmTC_34c48.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34c48.dir/feature_tests.c.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -std=c99 -o CMakeFiles/cmTC_34c48.dir/feature_tests.c.obj   -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.c
+Linking C executable cmTC_34c48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34c48.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_34c48.dir/feature_tests.c.obj  -o cmTC_34c48 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -174,19 +174,19 @@ make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMa
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_10bf8/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_10bf8.dir/build.make CMakeFiles/cmTC_10bf8.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_10bf8.dir/feature_tests.c.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -std=c90 -o CMakeFiles/cmTC_10bf8.dir/feature_tests.c.obj   -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.c
-Linking C executable cmTC_10bf8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10bf8.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_10bf8.dir/feature_tests.c.obj  -o cmTC_10bf8 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9d027/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9d027.dir/build.make CMakeFiles/cmTC_9d027.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d027.dir/feature_tests.c.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc    -mlongcalls -Wno-frame-address    -std=c90 -o CMakeFiles/cmTC_9d027.dir/feature_tests.c.obj   -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9d027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d027.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_9d027.dir/feature_tests.c.obj  -o cmTC_9d027 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -194,33 +194,33 @@ make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMa
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37f65/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_37f65.dir/build.make CMakeFiles/cmTC_37f65.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_37f65.dir/testCXXCompiler.cxx.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_37f65.dir/testCXXCompiler.cxx.obj -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_37f65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f65.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_37f65.dir/testCXXCompiler.cxx.obj  -o cmTC_37f65 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e1935/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e1935.dir/build.make CMakeFiles/cmTC_e1935.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1935.dir/testCXXCompiler.cxx.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_e1935.dir/testCXXCompiler.cxx.obj -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e1935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1935.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_e1935.dir/testCXXCompiler.cxx.obj  -o cmTC_e1935 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_475bd/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_475bd.dir/build.make CMakeFiles/cmTC_475bd.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_475bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475bd.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_475bd  
+Run Build Command:"/usr/bin/make" "cmTC_8e5b1/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8e5b1.dir/build.make CMakeFiles/cmTC_8e5b1.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8e5b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e5b1.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_8e5b1  
 Using built-in specs.
 COLLECT_GCC=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 COLLECT_LTO_WRAPPER=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper
@@ -230,26 +230,26 @@ Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
 COMPILER_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_475bd'
- /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_475bd /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_475bd'
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_8e5b1'
+ /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_8e5b1 /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_8e5b1'
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_475bd/fast"]
-  ignore line: [make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_475bd.dir/build.make CMakeFiles/cmTC_475bd.dir/build]
-  ignore line: [make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_475bd]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475bd.dir/link.txt --verbose=1]
-  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_475bd  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8e5b1/fast"]
+  ignore line: [make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8e5b1.dir/build.make CMakeFiles/cmTC_8e5b1.dir/build]
+  ignore line: [make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8e5b1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e5b1.dir/link.txt --verbose=1]
+  ignore line: [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_8e5b1  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper]
@@ -259,18 +259,18 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.4.0 (crosstool-NG esp-2020r3) ]
   ignore line: [COMPILER_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_475bd']
-  link line: [ /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_475bd /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_8e5b1']
+  link line: [ /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -o cmTC_8e5b1 /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_475bd] ==> ignore
+    arg [cmTC_8e5b1] ==> ignore
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o] ==> ignore
     arg [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o] ==> ignore
     arg [-L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> dir [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0]
     arg [-L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_475bd.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_8e5b1.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -293,19 +293,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44469/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_44469.dir/build.make CMakeFiles/cmTC_44469.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44469.dir/feature_tests.cxx.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -std=c++14 -o CMakeFiles/cmTC_44469.dir/feature_tests.cxx.obj -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_44469
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44469.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_44469.dir/feature_tests.cxx.obj  -o cmTC_44469 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_43b15/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43b15.dir/build.make CMakeFiles/cmTC_43b15.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43b15.dir/feature_tests.cxx.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -std=c++14 -o CMakeFiles/cmTC_43b15.dir/feature_tests.cxx.obj -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_43b15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b15.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_43b15.dir/feature_tests.cxx.obj  -o cmTC_43b15 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -368,19 +368,19 @@ make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMa
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3f24a/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3f24a.dir/build.make CMakeFiles/cmTC_3f24a.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3f24a.dir/feature_tests.cxx.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -std=c++11 -o CMakeFiles/cmTC_3f24a.dir/feature_tests.cxx.obj -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3f24a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f24a.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_3f24a.dir/feature_tests.cxx.obj  -o cmTC_3f24a 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4a0cf/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4a0cf.dir/build.make CMakeFiles/cmTC_4a0cf.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a0cf.dir/feature_tests.cxx.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -std=c++11 -o CMakeFiles/cmTC_4a0cf.dir/feature_tests.cxx.obj -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4a0cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a0cf.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_4a0cf.dir/feature_tests.cxx.obj  -o cmTC_4a0cf 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -443,19 +443,19 @@ make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMa
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3fa37/fast"
-make[3]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3fa37.dir/build.make CMakeFiles/cmTC_3fa37.dir/build
-make[4]: Entering directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3fa37.dir/feature_tests.cxx.obj
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -std=c++98 -o CMakeFiles/cmTC_3fa37.dir/feature_tests.cxx.obj -c /home/pi/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3fa37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fa37.dir/link.txt --verbose=1
-/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_3fa37.dir/feature_tests.cxx.obj  -o cmTC_3fa37 
-make[4]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/pi/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_64570/fast"
+make[3]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_64570.dir/build.make CMakeFiles/cmTC_64570.dir/build
+make[4]: Entering directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64570.dir/feature_tests.cxx.obj
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++     -mlongcalls -Wno-frame-address    -std=c++98 -o CMakeFiles/cmTC_64570.dir/feature_tests.cxx.obj -c /home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_64570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64570.dir/link.txt --verbose=1
+/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_64570.dir/feature_tests.cxx.obj  -o cmTC_64570 
+make[4]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/IoTProject/ble_ibeacon/build/bootloader/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

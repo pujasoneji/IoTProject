@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/esp-idf/components/esp_adc_cal
+# Install script for directory: /home/pi/IoTProject/esp-idf/components/esp_adc_cal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

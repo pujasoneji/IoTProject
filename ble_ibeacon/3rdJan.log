@@ -1655,3 +1655,204 @@ entry 0x40080688
 Executing action: monitor
 Running idf_monitor in directory /home/pi/ble_ibeacon
 Executing "/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python /home/pi/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- /home/pi/ble_ibeacon/build/ble_ibeacon_demo.elf -m '/home/pi/.espressif/python_env/idf4.1_py3.5_env/bin/python' '/home/pi/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'"...
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:4
+load:0x3fff0034,len:6976
+ho 0 tail 12 room 4
+load:0x40078000,len:13100
+load:0x40080400,len:3884
+entry 0x40080688
+[0;32mI (30) boot: ESP-IDF v4.1-521-ge00419c97-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time 12:20:18[0m
+[0;32mI (30) boot: chip revision: 1[0m
+[0;32mI (35) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (87) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (106) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x1b754 (112468) map[0m
+[0;32mI (157) esp_image: segment 1: paddr=0x0002b77c vaddr=0x3ffbdb60 size=0x03358 ( 13144) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=0x0002eadc vaddr=0x40080000 size=0x00404 (  1028) load[0m
+[0;32mI (165) esp_image: segment 3: paddr=0x0002eee8 vaddr=0x40080404 size=0x01130 (  4400) load[0m
+[0;32mI (175) esp_image: segment 4: paddr=0x00030020 vaddr=0x400d0020 size=0x76f0c (487180) map[0m
+[0;32mI (367) esp_image: segment 5: paddr=0x000a6f34 vaddr=0x40081534 size=0x12f94 ( 77716) load[0m
+[0;32mI (413) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (413) boot: Disabling RNG early entropy source...[0m
+[0;32mI (413) cpu_start: Pro cpu up.[0m
+[0;32mI (417) cpu_start: Application information:[0m
+[0;32mI (422) cpu_start: Project name:     ble_ibeacon_demo[0m
+[0;32mI (428) cpu_start: App version:      0963f94-dirty[0m
+[0;32mI (433) cpu_start: Compile time:     Jan  4 2021 13:16:23[0m
+[0;32mI (439) cpu_start: ELF file SHA256:  6190255fcd4854ce...[0m
+[0;32mI (445) cpu_start: ESP-IDF:          v4.1-521-ge00419c97-dirty[0m
+[0;32mI (452) cpu_start: Starting app cpu, entry point is 0x400812b0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (462) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (469) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (475) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (481) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (487) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM[0m
+[0;32mI (493) heap_init: At 3FFC89B0 len 00017650 (93 KiB): DRAM[0m
+[0;32mI (499) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (506) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (512) heap_init: At 400944C8 len 0000BB38 (46 KiB): IRAM[0m
+[0;32mI (518) cpu_start: Pro cpu start user code[0m
+[0;32mI (537) spi_flash: detected chip: generic[0m
+[0;32mI (537) spi_flash: flash io: dio[0m
+[0;33mW (537) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (548) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (594) BTDM_INIT: BT controller compile version [4bb1a62][0m
+[0;32mI (594) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+[0;32mI (694) phy: phy_version: 4390, 6b3c1f2, Sep 10 2020, 15:09:07, 0, 0[0m
+[0;32mI (1034) IBEACON_DEMO: register callback[0m
+[0;32mI (13814) IBEACON_DEMO: 13[0m
+[0;32mI (15114) IBEACON_DEMO: 14[0m
+[0;32mI (16394) IBEACON_DEMO: 15[0m
+[0;32mI (28024) IBEACON_DEMO: 27[0m
+[0;32mI (29294) IBEACON_DEMO: 28[0m
+[0;32mI (46064) IBEACON_DEMO: 45[0m
+[0;32mI (47364) IBEACON_DEMO: 46[0m
+[0;32mI (58954) IBEACON_DEMO: 58[0m
+[0;32mI (60254) IBEACON_DEMO: 59[0m
+[0;32mI (78314) IBEACON_DEMO: 77[0m
+[0;32mI (91224) IBEACON_DEMO: 90[0m
+[0;32mI (92514) IBEACON_DEMO: 91[0m
+[0;32mI (93804) IBEACON_DEMO: 93[0m
+[0;32mI (105424) IBEACON_DEMO: 104[0m
+[0;32mI (106714) IBEACON_DEMO: 106[0m
+[0;32mI (108024) IBEACON_DEMO: 107[0m
+[0;32mI (120904) IBEACON_DEMO: 120[0m
+[0;32mI (124774) IBEACON_DEMO: 124[0m
+[0;32mI (137674) IBEACON_DEMO: 137[0m
+[0;32mI (138954) IBEACON_DEMO: 138[0m
+[0;32mI (151854) IBEACON_DEMO: 151[0m
+[0;32mI (155724) IBEACON_DEMO: 155[0m
+[0;32mI (168614) IBEACON_DEMO: 168[0m
+[0;32mI (169904) IBEACON_DEMO: 169[0m
+[0;32mI (184074) IBEACON_DEMO: 183[0m
+[0;32mI (185364) IBEACON_DEMO: 184[0m
+[0;32mI (186654) IBEACON_DEMO: 186[0m
+[0;32mI (198254) IBEACON_DEMO: 197[0m
+[0;32mI (202114) IBEACON_DEMO: 201[0m
+[0;32mI (216334) IBEACON_DEMO: 215[0m
+[0;32mI (217614) IBEACON_DEMO: 217[0m
+[0;32mI (229214) IBEACON_DEMO: 228[0m
+[0;32mI (230504) IBEACON_DEMO: 229[0m
+[0;32mI (244704) IBEACON_DEMO: 244[0m
+[0;32mI (248574) IBEACON_DEMO: 248[0m
+[0;32mI (261474) IBEACON_DEMO: 260[0m
+[0;32mI (262764) IBEACON_DEMO: 262[0m
+[0;32mI (264054) IBEACON_DEMO: 263[0m
+[0;32mI (275674) IBEACON_DEMO: 275[0m
+[0;32mI (276964) IBEACON_DEMO: 276[0m
+[0;32mI (293724) IBEACON_DEMO: 293[0m
+[0;32mI (295004) IBEACON_DEMO: 294[0m
+[0;32mI (306614) IBEACON_DEMO: 306[0m
+[0;32mI (310474) IBEACON_DEMO: 309[0m
+[0;32mI (324674) IBEACON_DEMO: 324[0m
+[0;32mI (325964) IBEACON_DEMO: 325[0m
+[0;32mI (338874) IBEACON_DEMO: 338[0m
+[0;32mI (340164) IBEACON_DEMO: 339[0m
+[0;32mI (353064) IBEACON_DEMO: 352[0m
+[0;32mI (371134) IBEACON_DEMO: 370[0m
+[0;32mI (372424) IBEACON_DEMO: 371[0m
+[0;32mI (385334) IBEACON_DEMO: 384[0m
+[0;32mI (399534) IBEACON_DEMO: 398[0m
+[0;32mI (415004) IBEACON_DEMO: 414[0m
+[0;32mI (418874) IBEACON_DEMO: 418[0m
+[0;32mI (431774) IBEACON_DEMO: 431[0m
+[0;32mI (433064) IBEACON_DEMO: 432[0m
+[0;32mI (445964) IBEACON_DEMO: 445[0m
+[0;32mI (461464) IBEACON_DEMO: 460[0m
+[0;32mI (465334) IBEACON_DEMO: 464[0m
+[0;32mI (478234) IBEACON_DEMO: 477[0m
+[0;32mI (479524) IBEACON_DEMO: 478[0m
+[0;32mI (480814) IBEACON_DEMO: 480[0m
+[0;32mI (492424) IBEACON_DEMO: 491[0m
+[0;32mI (493714) IBEACON_DEMO: 493[0m
+[0;32mI (496284) IBEACON_DEMO: 495[0m
+[0;32mI (509184) IBEACON_DEMO: 508[0m
+[0;32mI (510474) IBEACON_DEMO: 509[0m
+[0;32mI (511764) IBEACON_DEMO: 511[0m
+[0;32mI (523374) IBEACON_DEMO: 522[0m
+[0;32mI (524664) IBEACON_DEMO: 524[0m
+[0;32mI (541434) IBEACON_DEMO: 540[0m
+[0;32mI (542734) IBEACON_DEMO: 542[0m
+[0;32mI (555624) IBEACON_DEMO: 555[0m
+[0;32mI (556914) IBEACON_DEMO: 556[0m
+[0;32mI (558214) IBEACON_DEMO: 557[0m
+[0;32mI (569814) IBEACON_DEMO: 569[0m
+[0;32mI (572384) IBEACON_DEMO: 571[0m
+[0;32mI (573674) IBEACON_DEMO: 573[0m
+[0;32mI (587884) IBEACON_DEMO: 587[0m
+[0;32mI (589184) IBEACON_DEMO: 588[0m
+[0;32mI (602094) IBEACON_DEMO: 601[0m
+[0;32mI (603374) IBEACON_DEMO: 602[0m
+[0;32mI (604664) IBEACON_DEMO: 604[0m
+[0;32mI (616294) IBEACON_DEMO: 615[0m
+[0;32mI (617574) IBEACON_DEMO: 617[0m
+[0;32mI (618864) IBEACON_DEMO: 618[0m
+[0;32mI (631774) IBEACON_DEMO: 631[0m
+[0;32mI (635634) IBEACON_DEMO: 635[0m
+[0;32mI (647244) IBEACON_DEMO: 646[0m
+[0;32mI (648524) IBEACON_DEMO: 647[0m
+[0;32mI (649814) IBEACON_DEMO: 649[0m
+[0;32mI (663994) IBEACON_DEMO: 663[0m
+[0;32mI (665284) IBEACON_DEMO: 664[0m
+[0;32mI (666574) IBEACON_DEMO: 666[0m
+[0;32mI (678194) IBEACON_DEMO: 677[0m
+[0;32mI (682044) IBEACON_DEMO: 681[0m
+[0;32mI (696234) IBEACON_DEMO: 695[0m
+[0;32mI (697524) IBEACON_DEMO: 696[0m
+[0;32mI (709144) IBEACON_DEMO: 708[0m
+[0;32mI (710434) IBEACON_DEMO: 709[0m
+[0;32mI (711724) IBEACON_DEMO: 711[0m
+[0;32mI (724624) IBEACON_DEMO: 724[0m
+[0;32mI (725914) IBEACON_DEMO: 725[0m
+[0;32mI (728494) IBEACON_DEMO: 727[0m
+[0;32mI (742684) IBEACON_DEMO: 742[0m
+[0;32mI (743974) IBEACON_DEMO: 743[0m
+[0;32mI (755584) IBEACON_DEMO: 755[0m
+[0;32mI (756874) IBEACON_DEMO: 756[0m
+[0;32mI (772344) IBEACON_DEMO: 771[0m
+[0;32mI (773634) IBEACON_DEMO: 773[0m
+[0;32mI (774924) IBEACON_DEMO: 774[0m
+[0;32mI (786544) IBEACON_DEMO: 785[0m
+[0;32mI (787824) IBEACON_DEMO: 787[0m
+[0;32mI (802034) IBEACON_DEMO: 801[0m
+[0;32mI (803334) IBEACON_DEMO: 802[0m
+[0;32mI (821394) IBEACON_DEMO: 820[0m
+[0;32mI (834294) IBEACON_DEMO: 833[0m
+[0;32mI (835584) IBEACON_DEMO: 835[0m
+[0;32mI (848484) IBEACON_DEMO: 847[0m
+[0;32mI (849794) IBEACON_DEMO: 849[0m
+[0;32mI (852344) IBEACON_DEMO: 851[0m
+[0;32mI (863944) IBEACON_DEMO: 863[0m
+[0;32mI (865244) IBEACON_DEMO: 864[0m
+[0;32mI (866524) IBEACON_DEMO: 865[0m
+[0;32mI (879424) IBEACON_DEMO: 878[0m
+[0;32mI (880724) IBEACON_DEMO: 880[0m
+[0;32mI (896194) IBEACON_DEMO: 895[0m
+[0;32mI (897484) IBEACON_DEMO: 896[0m
+[0;32mI (898784) IBEACON_DEMO: 898[0m
+[0;32mI (910394) IBEACON_DEMO: 909[0m
+[0;32mI (911684) IBEACON_DEMO: 911[0m
+[0;32mI (912974) IBEACON_DEMO: 912[0m
+[0;32mI (925884) IBEACON_DEMO: 925[0m
+[0;32mI (927174) IBEACON_DEMO: 926[0m
+[0;32mI (942654) IBEACON_DEMO: 942[0m
+[0;32mI (943944) IBEACON_DEMO: 943[0m
+[0;32mI (945234) IBEACON_DEMO: 944[0m

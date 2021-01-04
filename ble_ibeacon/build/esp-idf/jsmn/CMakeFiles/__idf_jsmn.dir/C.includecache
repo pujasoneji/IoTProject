@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/esp-idf/components/jsmn/include/jsmn.h
+/home/pi/IoTProject/esp-idf/components/jsmn/include/jsmn.h
 stddef.h
 -
 
-/home/pi/esp-idf/components/jsmn/src/jsmn.c
+/home/pi/IoTProject/esp-idf/components/jsmn/src/jsmn.c
 jsmn.h
-/home/pi/esp-idf/components/jsmn/src/jsmn.h
+/home/pi/IoTProject/esp-idf/components/jsmn/src/jsmn.h
 
