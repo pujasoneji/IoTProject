@@ -2,30 +2,16 @@ import re
 from timeloop import Timeloop
 from datetime import timedelta
 import time as t
-import pymongo
-from pymongo import MongoClient
-from pymongosecrets import *
-
-
-cluster = MongoClient("mongodb+srv://pujasoneji:"+password+"@cluster0.fmea2.mongodb.net/pi?retryWrites=true&w=majority")
-db = cluster["pi"]
-collection = db["collection_ble"]
 
 infile = r"/home/pi/IoTProject/ble_ibeacon/3rdJan.log"
 
 important = {}
-secs = 60
+secs = 10
 tl = Timeloop()
 oldtime = 0
 already_active = 0
 count = 1
 start_time = 0
-realtime = int(t.time())
-
-#finding the most recent ID
-database =collection.find().sort("_id",pymongo.DESCENDING).limit(1)
-for mostrecent in database:
-	currentID = (mostrecent["_id"])+1
 
 def getTimestamp(f):
 	lineNumber = len(f) 
@@ -35,9 +21,7 @@ def getTimestamp(f):
 	timestamp = allnumbers[3] #reading the fourth number in the list which corresponds to the printed time
 
 	return timestamp
-
-print("In another terminal window, type idf.py -p /dev/ttyUSB0 monitor >> 3rdJan.log")
-print("This code will loop every 60 seconds")	
+	
 
 while True:
 	tl.start()
@@ -51,23 +35,17 @@ while True:
 			pass
 		elif already_active == 0: #activity has just started
 			start_time = timestamp #updates start time so it can be appended to the dictionary for ongoing activity
-			important.update({count : [realtime + timestamp, realtime + timestamp]}) #creating a new value in the dictionary with the timestamp and the start and end time
+			important.update({count : [timestamp, timestamp]}) #creating a new value in the dictionary with the timestamp and the start and end time
 			already_active = 1 #turning on activity
 
 		elif already_active == 1: #ongoing activity
-			important.update({count : [realtime + start_time, realtime + timestamp]}) #updating an existing value in the dictionary with a new end time
+			important.update({count : [start_time, timestamp]}) #updating an existing value in the dictionary with a new end time
 			
 	else:
 		if already_active == 1: #the log file hasn't updated since the last time we checked therefore the current time stamp is the same as the old time stamp
-			begin = important[count][0]
-			end = important[count][1]
-			print(begin)
-			activity = {"_id":currentID, "starttime":int(begin), "endtime":int(end)}
-			collection.insert_one(activity)
 			already_active = 0 #this is the end of the activity therefore we switch it to inactive
 			count = count + 1 #ensuring that the next time activity is detected, a new key will be created in the dictionary
-			currentID = currentID + 1 #increasing count
-
+			
 		else:
 			pass
 

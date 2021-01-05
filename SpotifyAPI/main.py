@@ -6,6 +6,14 @@ import os
 import time
 from timeloop import Timeloop
 from datetime import timedelta
+import pymongo
+from pymongo import MongoClient
+from pymongosecrets import *
+
+
+cluster = MongoClient("mongodb+srv://pujasoneji:"+password+"@cluster0.fmea2.mongodb.net/pi?retryWrites=true&w=majority")
+db = cluster["pi"]
+collection = db["collection_music"]
 
 #environment variables required for requesting a token
 os.environ['SPOTIPY_CLIENT_ID']  = clientID  
@@ -20,13 +28,21 @@ tl = Timeloop()
 #dictionary to store information every x seconds
 songList = {}
 count = 0
-sleep = 60 #can adjust how long the while True loop sleep for each time.
+sleep = 90 #can adjust how long the while True loop sleep for each time.
+
+#CODE FOR FINDING MOST RECENT ID= THIS WILL BE DIFFERENT TO COUNT AS WE NEED THAT AT 0 EVERY TIME THE SCRIPT RUNS
+database =collection.find().sort("_id",pymongo.DESCENDING).limit(1)
+
+
+for mostrecent in database:
+	print(mostrecent)
+	currentID = (mostrecent["_id"])+1
+	print(currentID)
 
 #function to add songs to songList dictionary on every loop
 def addSongsToList(dict, key, valuelist):
 	if key not in dict:
-		dict[key] = list()
-	dict[key].extend(valuelist)
+		dict[key] = valuelist
 	return dict
 
 while True: #code repeats indefinitely
@@ -50,25 +66,33 @@ while True: #code repeats indefinitely
 		#image = [sub['url'] for sub in y]
 
 		if len(songList) == 0: #if this is the first entry to the dictionary. This avoids us checking if this song is the same as the last song
-			songInfo = (song, artist[0], image) #creating a list format to put into dictionary
-			ts = time.time() #timestamp for current song
-
-			addSongsToList(songList, int(ts), songInfo) #adding song information to the dictionary
+			ts = time.time()
+			songInfo = {"_id":currentID, "time":int(ts), "song":song, "artist":artist[0], "image":image}
+			#songInfo = (song, artist[0], image) #creating a list format to put into dictionary
+			#ts = time.time() #timestamp for current song
+			collection.insert_one(songInfo)
+			#addSongsToList(songList, int(ts), songInfo) #adding song information to the dictionary
+			addSongsToList(songList, count, songInfo)
 			print(songList)
 			time.sleep(sleep) #sleep time before loop continues
 
 		else:
 
 
-			lastSongInfo = list(songList)[count] #finding the name of the last key
-			lastSong = songList[lastSongInfo][0] #finding the associated song value for that key
+			#lastSongInfo = list(songList)[count] #finding the name of the last key
+			#lastSong = songList[lastSongInfo][0] #finding the associated song value for that key
+			lastSong = songList[count]["song"]
 
 			if song != lastSong: #avoiding repeats in the dictionary
-				songInfo = (song, artist[0], image) #creating a list format to put into dictionary
+				
+				#songInfo = (song, artist[0], image) #creating a list format to put into dictionary
 				ts = time.time() #timestamp for current song
 				count = count + 1 #only adding 1 to count if a song has been added
-
-				addSongsToList(songList, int(ts), songInfo) #adding song information to the dictionary
+				currentID = currentID + 1
+				songInfo = {"_id":currentID, "time":int(ts), "song":song, "artist":artist[0], "image":image}
+				collection.insert_one(songInfo)
+				#addSongsToList(songList, int(ts), songInfo) #adding song information to the dictionary
+				addSongsToList(songList, count, songInfo)
 				print(songList)
 				time.sleep(sleep) #sleep time before loop continues
 
