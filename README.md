@@ -4,10 +4,10 @@ This project is using physical and digital data sources to determine my remote w
 
 ## Sensing Code
 Folders: 
--ble_ibeacon (must use espspressif idf library to run)
--picam
--spotifyAPI
--weather
+- ble_ibeacon (must use espressif idf library to run)
+- picam
+- spotifyAPI
+- weather
 
 ## Post-processing
 Ble_clean.ipynb
